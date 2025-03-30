@@ -1,0 +1,1046 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CraftyChisel</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <!-- <link rel="stylesheet" href="login.css"> -->
+    <!-- <link rel="stylesheet" href="gallary.css"> -->
+  </head>
+  <body>
+    <!-- top-Banner -->
+    <!-- marquee -->
+    <div class="marquee-container bg_shade">
+      <div class="marquee">
+        <span
+          >Get 10% off. Use code <strong>PREPAID</strong> to get 10% off. to get
+          10% off.to get 10% off. to get 10% off.
+        </span>
+        <span
+          >Get 10% off. Use code <strong>PREPAID</strong> to get 10% off.
+        </span>
+        <span
+          >Get 10% off. Use code <strong>PREPAID</strong> to get 10% off.
+        </span>
+      </div>
+    </div>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light shadow-sm">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">
+          <img src="image/logo.jpg" alt="Logo" class="img-fluid" style="max-height: 50px" />
+        </a>
+    
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+    
+        <div class="collapse navbar-collapse" id="navbarText">
+          <button class="navbar-close d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText">
+            <span class="close-icon">&times;</span>
+          </button>
+    
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <!-- Home Dropdown -->
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+    
+            <!-- New Add-ins Dropdown -->
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="newAddinsDropdown" role="button" data-bs-toggle="dropdown">
+                New Add-ins
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Add-in 3</a>
+                  <a class="dropdown-item" href="#">Add-in 3</a>
+                  <a class="dropdown-item" href="#">Add-in 3</a>
+                  <a class="dropdown-item" href="#">Add-in 3</a>
+              </li>
+              <li><a class="dropdown-item" href="#">Add-in 3</a>
+                <a class="dropdown-item" href="#">Add-in 3</a>
+                <a class="dropdown-item" href="#">Add-in 3</a>
+                <a class="dropdown-item" href="#">Add-in 3</a>
+            </li>
+                <li><a class="dropdown-item" href="#">Add-in 3</a>
+                    <a class="dropdown-item" href="#">Add-in 3</a>
+                    <a class="dropdown-item" href="#">Add-in 3</a>
+                    <a class="dropdown-item" href="#">Add-in 3</a>
+                </li>
+                <li class="dropdown-item image-column">
+                  <img src="image/about-banner.jpg" alt="Add-in Image" />
+                </li>
+              </ul>
+            </li>
+    
+            <!-- Idols & Statues Dropdown -->
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="idolsDropdown" role="button" data-bs-toggle="dropdown">
+                Idols & Statues
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Add-in 3</a>
+                  <a class="dropdown-item" href="#">Add-in 3</a>
+                  <a class="dropdown-item" href="#">Add-in 3</a>
+                  <a class="dropdown-item" href="#">Add-in 3</a>
+              </li>
+              <li><a class="dropdown-item" href="#">Add-in 3</a>
+                <a class="dropdown-item" href="#">Add-in 3</a>
+                <a class="dropdown-item" href="#">Add-in 3</a>
+                <a class="dropdown-item" href="#">Add-in 3</a>
+            </li>
+                <li><a class="dropdown-item" href="#">Add-in 3</a>
+                    <a class="dropdown-item" href="#">Add-in 3</a>
+                    <a class="dropdown-item" href="#">Add-in 3</a>
+                    <a class="dropdown-item" href="#">Add-in 3</a>
+                </li>
+                <li class="dropdown-item image-column">
+                  <img src="image/sub_Item-1.jpg" alt="Add-in Image" />
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown" id="statuesMenu">
+              <a class="nav-link dropdown-toggle" href="#" id="statuesDropdownToggle" role="button" data-bs-toggle="dropdown">
+                Statues
+              </a>
+              <ul class="dropdown-menu" id="statuesDropdownMenu">
+                <li><a class="dropdown-item" href="#">Statue 1</a></li>
+                <li><a class="dropdown-item" href="#">Statue 2</a></li>
+                <li class="dropdown-submenu" id="statue3Submenu">
+                  <a class="dropdown-item dropdown-toggle" href="#">Statue 3</a>
+                  <ul class="submenu dropdown-menu" id="statue3DropdownMenu">
+                    <li><a class="dropdown-item" href="#">Sub-item 1</a></li>
+                    <li><a class="dropdown-item" href="#">Sub-item 2</a></li>
+                    <li><a class="dropdown-item" href="#">Sub-item 3</a></li>
+                  </ul>
+                </li>
+                <li><a class="dropdown-item" href="#">Statue 4</a></li>
+              </ul>
+            </li>
+            </ul>
+            </li>
+          </ul>
+    
+          <!-- Right-aligned icons -->
+          <div class="d-flex align-items-center ms-auto">
+            <ul class="navbar-nav mb-2 mb-lg-0 d-flex flex-row">
+              <li class="nav-item">
+                <a class="nav-icon" href="login.html"><i class="bi bi-person"></i></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-icon search-trigger" href="#"><i class="bi bi-search"></i></a>
+              </li>
+              <li class="nav-item position-relative">
+                <a class="nav-icon" href="#" id="cartIcon"><i class="bi bi-bag"></i></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+   <!-- Search Modal -->
+    <div class="modal" id="searchModal">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content" style="height: 100%;">
+          <div class="modal-body">
+            <input type="text" class="form-control" placeholder="Search..." id="searchInput" />
+            <button type="button" class="btn-close" id="closeModal"></button>
+            <button type="button" class="btn btn-primary" id="searchButton">Search</button>
+          </div>
+          <!-- Container for displaying search results -->
+          <div id="searchResults" class="search-results-container"></div>
+        </div>
+      </div>
+    </div>
+<!-- Sidebar -->
+<div class="sidebar" id="sidebar">
+  <span class="close-btn" id="closeSidebar">&times;</span>
+  <div class="content">
+    <h1 class="text">Your Cart</h1>
+
+    <!-- Product Item -->
+    <div class="Add-Cart">
+      <div class="product-img">
+        <img src="image/category-3.jpg" alt="Product Image" />
+      </div>
+      <div class="product-details">
+        <h6>Lavender Pintucks Straight Suit Set</h6>
+        <p>Rs. 8,500.00</p>
+        <p>Size: XS</p>
+        <div class="counter_section">
+       
+        <span class="delete-icon">&#128465;</span> <!-- Delete icon on the right -->
+      </div>
+      </div>
+    </div>
+
+    <!-- Coupon Section -->
+    <div class="coupon-section">
+      <p><strong>Flat 20% OFF</strong></p>
+      <p>Use Coupon Code: <span class="coupon-code">DIWALI20</span></p>
+    </div>
+
+    <!-- Bottom Section -->
+    <div class="sidebar-bottom">
+      
+      <p>Order special instructions</p>
+      <div class="check-out-price">
+        <strong>Estimated total</strong>
+        <span>Rs. 8,500.00</span>
+      </div>
+      <p>Tax included and shipping & discounts calculated at checkout</p>
+      <a href="Cart.html">
+        <button type="button"  class="btn-checkout bg_shade">Check out</button>
+      </a>
+     
+      
+    </div>
+  </div>
+</div>
+    <!-- Image Gallery -->
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8">
+          <!-- Image Gallery -->
+          <div class="image-gallery">
+            <!-- Thumbnail Column -->
+            <div class="thumbnail-column">
+              <img src="image/category-1.jpg" class="thumbnail-img" alt="Thumbnail 1" data-full-image="image/addition-1.jpg" />
+              <img src="image/category-2.jpg" class="thumbnail-img" alt="Thumbnail 2" data-full-image="image/addition-2.jpg" />
+              <img src="image/category-3.jpg" class="thumbnail-img" alt="Thumbnail 3" data-full-image="image/addition-3.jpg" />
+              <img src="image/category-4.jpg" class="thumbnail-img" alt="Thumbnail 4" data-full-image="image/addition-4.jpg" />
+              <img src="image/category-1.jpg" class="thumbnail-img" alt="Thumbnail 5" data-full-image="image/addition-5.jpg" />
+              <img src="image/category-1.jpg" class="thumbnail-img" alt="Thumbnail 5" data-full-image="image/addition-5.jpg" />
+            </div>
+            
+            <!-- Full Image Column -->
+            <div class="full-image-column">
+              <img src="image/category-1.jpg" class="full-img" alt="Full Image 1" />
+              <img src="image/category-2.jpg" class="full-img" alt="Full Image 2" />
+              <img src="image/category-3.jpg" class="full-img" alt="Full Image 3" />
+              <img src="image/category-4.jpg" class="full-img" alt="Full Image 4" />
+              <img src="image/category-1.jpg" class="full-img" alt="Full Image 5" />
+              <img src="image/category-1.jpg" class="full-img" alt="Full Image 5" />
+            </div>
+            
+          </div>
+        </div>
+
+        <div class="col-md-4 product-details">
+          <h2 class="product-title">
+            SHUBH LABH GANESHA WALL HANGING DIYA BELL - BRASS STONEWORK DECOR
+          </h2>
+          <p class="product-price">RS. 10,700.00</p>
+          <div class="col-md-3">
+            <label for="sizeSelect" class="form-label">Choose Size:</label>
+            <div id="sizeSelect" class="size-selector">
+              <div data-size="xs" class="size-box">XS</div>
+              <div data-size="s" class="size-box">S</div>
+              <div data-size="m" class="size-box">M</div>
+              <div data-size="l" class="size-box">L</div>
+              <div data-size="xl" class="size-box">XL</div>
+              <div data-size="xxl" class="size-box">XXL</div>
+            </div>
+            
+
+            <input type="hidden" id="selectedSize" value="" />
+          </div>
+
+          <!-- color -->
+
+          <div class="container mt-3">
+            <div class="row">
+              <div class="col-md-12  d-flex align-items-center">
+                <label class="me-3" style="font-weight: bold">COLOR:</label>
+
+                <input
+                  type="radio"
+                  class="btn-check"
+                  name="color"
+                  id="colorPink"
+                  autocomplete="off"
+                  checked
+                />
+                <label class="btn btn-color pink" for="colorPink"></label>
+
+                <input
+                  type="radio"
+                  class="btn-check"
+                  name="color"
+                  id="colorGreen"
+                  autocomplete="off"
+                />
+                <label class="btn btn-color green" for="colorGreen"></label>
+              </div>
+            </div>
+          </div>
+
+          <div class="counter" style="margin-right: 80%">
+            <button id="decrease">-</button>
+            <span id="number">1</span>
+            <button id="increase">+</button>
+          </div>
+          <a href="#"
+            ><button
+              type="button"
+              class="btn-2 btn  mb-2"
+              style="width: 100%"
+            >
+              Add to Cart
+            </button></a
+          >
+          <a href="#"
+            ><button
+              type="button"
+              class="btn btn-primary btn-lg btn-block bg_shade"
+              style="width: 100%"
+            >
+              Buy With Shop
+            </button></a
+          >
+          <div class="product-accordion mt-4" id="accordionProductDetailsUnique">
+            <!-- Description Section -->
+            <div class="product-accordion-item">
+              <h2 class="product-accordion-header" id="headingDescriptionUnique">
+                <button
+                  class="product-accordion-button"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseDescriptionUnique"
+                  aria-expanded="true"
+                  aria-controls="collapseDescriptionUnique"
+                >
+                  <span class="accordion-title-description">Description</span>
+                  <i class="accordion-icon-description"></i>
+                </button>
+              </h2>
+              <div
+                id="collapseDescriptionUnique"
+                class="product-accordion-collapse collapse show"
+                aria-labelledby="headingDescriptionUnique"
+                data-bs-parent="#accordionProductDetailsUnique"
+              >
+                <div class="product-accordion-body">
+                  <p>
+                    Pocket full of sunshine and a cheerful fit. Our Olivia Cotton Maxi Dress is one-of-a-kind with a unique back design and twirl-ready tier patterns. It is a must-have for vacations!<br />
+                    Model height: 5.4ft<br />
+                    Fabric: Cotton<br />
+                    Handcrafted in India<br />
+                    Size: Refer to size chart. Model is wearing size Small.
+                  </p>
+                </div>
+              </div>
+            </div>
+          
+            <!-- Care Guide Section -->
+            <div class="product-accordion-item">
+              <h2 class="product-accordion-header" id="headingCareGuideUnique">
+                <button
+                  class="product-accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseCareGuideUnique"
+                  aria-expanded="false"
+                  aria-controls="collapseCareGuideUnique"
+                >
+                  <span class="accordion-title-care-guide">Care Guide</span>
+                  <i class="accordion-icon-care-guide"></i>
+                </button>
+              </h2>
+              <div
+                id="collapseCareGuideUnique"
+                class="product-accordion-collapse collapse"
+                aria-labelledby="headingCareGuideUnique"
+                data-bs-parent="#accordionProductDetailsUnique"
+              >
+                <div class="product-accordion-body">
+                  <p>
+                    Washing Instructions: DRYCLEAN ONLY, Please don't spray deodorant or perfumes directly on the fabric.<br /><br />
+                    DISCLAIMER:<br />
+                    Natural-dyed colours might bleed during the first few washes or rub against the skin & other light-coloured garments. In the artful process of hand block-printing, embroidery work and stitching, variations are likely to come into existence. These irregularities are the hallmark of all handmade products and give each style a unique identity.<br /><br />
+                    Like most brands, our products are photographed professionally under controlled lighting. Colours tend to be perceived differently depending on factors such as shot angles, lighting, background tones and colour temperatures. As a result, prints and colours may vary 10% -12%. Nevertheless, we strive to match the tones as close to the original product colours as possible.
+                  </p>
+                </div>
+              </div>
+            </div>
+          
+            <!-- Additional Information Section -->
+            <div class="product-accordion-item">
+              <h2 class="product-accordion-header" id="headingAdditionalInfoUnique">
+                <button
+                  class="product-accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseAdditionalInfoUnique"
+                  aria-expanded="false"
+                  aria-controls="collapseAdditionalInfoUnique"
+                >
+                  <span class="accordion-title-additional-info">Additional Information</span>
+                  <i class="accordion-icon-additional-info"></i>
+                </button>
+              </h2>
+              <div
+                id="collapseAdditionalInfoUnique"
+                class="product-accordion-collapse collapse"
+                aria-labelledby="headingAdditionalInfoUnique"
+                data-bs-parent="#accordionProductDetailsUnique"
+              >
+                <div class="product-accordion-body">
+                  <p>
+                    Net Quantity: 1 N<br />
+                    Manufactured by:<br />
+                    Artssy Fashion Pvt Ltd<br />
+                    3rd Floor, B 29-30, B 39-40, 22 Godam Cir, Industrial Area, Hawa Sadak, Sharma Colony, Ashok Nagar, Jaipur, Rajasthan 302001<br /><br />
+                    Country of Origin:<br />
+                    India<br /><br />
+                    Customer Care Address:<br />
+                    Artssy Fashion Pvt Ltd<br />
+                    3rd Floor, B 29-30, B 39-40, 22 Godam Cir, Industrial Area, Hawa Sadak, Sharma Colony, Ashok Nagar, Jaipur, Rajasthan 302001<br /><br />
+                    Email:<br />
+                    orders@bunaai.com<br /><br />
+                    Phone:<br />
+                    +91 1416652270<br /><br />
+                    Commodity:<br />
+                    Dresses
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal for Full Image Gallery -->
+    <div id="image-modal" class="modal">
+      <div class="modal-content">
+        <img
+          id="modal-image"
+          src="image/category-1.jpg"
+          alt="Paris"
+          class="center"
+        />
+        <div class="modal-nav">
+          <span class="modal-prev">&#10094;</span>
+          <span class="modal-next">&#10095;</span>
+        </div>
+        <span class="close">&times;</span>
+      </div>
+    </div>
+    
+    <!-- addition-section -->
+    <div class="container-fluid mt-5">
+      <h2>Addition-section</h2>
+      <div class="row">
+        <div class="col-md-12">
+          <div class="image-slider">
+            <div class="slider-container">
+              <div class="slider-track">
+                <!-- Example Slide -->
+                <div class="slide">
+                  <a href="gallary.html" class="image-link">
+                    <img
+                      src="image/category-1.jpg"
+                      alt="Image 1"
+                      class="main-image"
+                    />
+                    <img
+                      src="image/category-2.jpg"
+                      alt="Image 2"
+                      class="hover-image"
+                    />
+                    <div class="wishlist-icon">
+                      <i class="fas fa-heart"></i> <!-- Heart icon for wishlist -->
+                    </div>
+                  </a>
+                  <div class="new-label">NEW</div>
+                  <div class="product-info">
+                    <h5>Product Name 1</h5>
+                    <p>₹6,000.00</p>
+                  </div>
+                </div>
+  
+                <!-- Additional Slides (copy and paste this block) -->
+                <div class="slide">
+                  <a href="gallary.html" class="image-link">
+                    <img
+                      src="image/category-3.jpg"
+                      alt="Image 3"
+                      class="main-image"
+                    />
+                    <img
+                      src="image/category-4.jpg"
+                      alt="Image 4"
+                      class="hover-image"
+                    />
+                    <div class="wishlist-icon">
+                      <i class="fas fa-heart"></i>
+                    </div>
+                  </a>
+                  <div class="new-label">NEW</div>
+                  <div class="product-info">
+                    <h5>Product Name 2</h5>
+                    <p>₹5,500.00</p>
+                  </div>
+                </div>
+                <div class="slide">
+                  <a href="gallary.html" class="image-link">
+                    <img
+                      src="image/category-3.jpg"
+                      alt="Image 3"
+                      class="main-image"
+                    />
+                    <img
+                      src="image/category-4.jpg"
+                      alt="Image 4"
+                      class="hover-image"
+                    />
+                    <div class="wishlist-icon">
+                      <i class="fas fa-heart"></i>
+                    </div>
+                  </a>
+                  <div class="new-label">NEW</div>
+                  <div class="product-info">
+                    <h5>Product Name 2</h5>
+                    <p>₹5,500.00</p>
+                  </div>
+                </div>
+                <div class="slide">
+                  <a href="gallary.html" class="image-link">
+                    <img
+                      src="image/category-3.jpg"
+                      alt="Image 3"
+                      class="main-image"
+                    />
+                    <img
+                      src="image/category-4.jpg"
+                      alt="Image 4"
+                      class="hover-image"
+                    />
+                    <div class="wishlist-icon">
+                      <i class="fas fa-heart"></i>
+                    </div>
+                  </a>
+                  <div class="new-label">NEW</div>
+                  <div class="product-info">
+                    <h5>Product Name 2</h5>
+                    <p>₹5,500.00</p>
+                  </div>
+                </div>
+                <div class="slide">
+                  <a href="gallary.html" class="image-link">
+                    <img
+                      src="image/category-3.jpg"
+                      alt="Image 3"
+                      class="main-image"
+                    />
+                    <img
+                      src="image/category-4.jpg"
+                      alt="Image 4"
+                      class="hover-image"
+                    />
+                    <div class="wishlist-icon">
+                      <i class="fas fa-heart"></i>
+                    </div>
+                  </a>
+                  <div class="new-label">NEW</div>
+                  <div class="product-info">
+                    <h5>Product Name 2</h5>
+                    <p>₹5,500.00</p>
+                  </div>
+                </div>
+                <div class="slide">
+                  <a href="gallary.html" class="image-link">
+                    <img
+                      src="image/category-3.jpg"
+                      alt="Image 3"
+                      class="main-image"
+                    />
+                    <img
+                      src="image/category-4.jpg"
+                      alt="Image 4"
+                      class="hover-image"
+                    />
+                    <div class="wishlist-icon">
+                      <i class="fas fa-heart"></i>
+                    </div>
+                  </a>
+                  <div class="new-label">NEW</div>
+                  <div class="product-info">
+                    <h5>Product Name 2</h5>
+                    <p>₹5,500.00</p>
+                  </div>
+                </div>
+                <div class="slide">
+                  <a href="gallary.html" class="image-link">
+                    <img
+                      src="image/category-3.jpg"
+                      alt="Image 3"
+                      class="main-image"
+                    />
+                    <img
+                      src="image/category-4.jpg"
+                      alt="Image 4"
+                      class="hover-image"
+                    />
+                    <div class="wishlist-icon">
+                      <i class="fas fa-heart"></i>
+                    </div>
+                  </a>
+                  <div class="new-label">NEW</div>
+                  <div class="product-info">
+                    <h5>Product Name 2</h5>
+                    <p>₹5,500.00</p>
+                  </div>
+                </div>
+                <div class="slide">
+                  <a href="gallary.html" class="image-link">
+                    <img
+                      src="image/category-3.jpg"
+                      alt="Image 3"
+                      class="main-image"
+                    />
+                    <img
+                      src="image/category-4.jpg"
+                      alt="Image 4"
+                      class="hover-image"
+                    />
+                    <div class="wishlist-icon">
+                      <i class="fas fa-heart"></i>
+                    </div>
+                  </a>
+                  <div class="new-label">NEW</div>
+                  <div class="product-info">
+                    <h5>Product Name 2</h5>
+                    <p>₹5,500.00</p>
+                  </div>
+                </div>
+                <div class="slide">
+                  <a href="gallary.html" class="image-link">
+                    <img
+                      src="image/category-3.jpg"
+                      alt="Image 3"
+                      class="main-image"
+                    />
+                    <img
+                      src="image/category-4.jpg"
+                      alt="Image 4"
+                      class="hover-image"
+                    />
+                    <div class="wishlist-icon">
+                      <i class="fas fa-heart"></i>
+                    </div>
+                  </a>
+                  <div class="new-label">NEW</div>
+                  <div class="product-info">
+                    <h5>Product Name 2</h5>
+                    <p>₹5,500.00</p>
+                  </div>
+                </div>
+                <div class="slide">
+                  <a href="gallary.html" class="image-link">
+                    <img
+                      src="image/category-3.jpg"
+                      alt="Image 3"
+                      class="main-image"
+                    />
+                    <img
+                      src="image/category-4.jpg"
+                      alt="Image 4"
+                      class="hover-image"
+                    />
+                    <div class="wishlist-icon">
+                      <i class="fas fa-heart"></i>
+                    </div>
+                  </a>
+                  <div class="new-label">NEW</div>
+                  <div class="product-info">
+                    <h5>Product Name 2</h5>
+                    <p>₹5,500.00</p>
+                  </div>
+                </div>
+                <div class="slide">
+                  <a href="gallary.html" class="image-link">
+                    <img
+                      src="image/category-3.jpg"
+                      alt="Image 3"
+                      class="main-image"
+                    />
+                    <img
+                      src="image/category-4.jpg"
+                      alt="Image 4"
+                      class="hover-image"
+                    />
+                    <div class="wishlist-icon">
+                      <i class="fas fa-heart"></i>
+                    </div>
+                  </a>
+                  <div class="new-label">NEW</div>
+                  <div class="product-info">
+                    <h5>Product Name 2</h5>
+                    <p>₹5,500.00</p>
+                  </div>
+                </div>
+                <div class="slide">
+                  <a href="gallary.html" class="image-link">
+                    <img
+                      src="image/category-3.jpg"
+                      alt="Image 3"
+                      class="main-image"
+                    />
+                    <img
+                      src="image/category-4.jpg"
+                      alt="Image 4"
+                      class="hover-image"
+                    />
+                    <div class="wishlist-icon">
+                      <i class="fas fa-heart"></i>
+                    </div>
+                  </a>
+                  <div class="new-label">NEW</div>
+                  <div class="product-info">
+                    <h5>Product Name 2</h5>
+                    <p>₹5,500.00</p>
+                  </div>
+                </div>
+                <div class="slide">
+                  <a href="gallary.html" class="image-link">
+                    <img
+                      src="image/category-3.jpg"
+                      alt="Image 3"
+                      class="main-image"
+                    />
+                    <img
+                      src="image/category-4.jpg"
+                      alt="Image 4"
+                      class="hover-image"
+                    />
+                    <div class="wishlist-icon">
+                      <i class="fas fa-heart"></i>
+                    </div>
+                  </a>
+                  <div class="new-label">NEW</div>
+                  <div class="product-info">
+                    <h5>Product Name 2</h5>
+                    <p>₹5,500.00</p>
+                  </div>
+                </div>
+                <div class="slide">
+                  <a href="gallary.html" class="image-link">
+                    <img
+                      src="image/category-3.jpg"
+                      alt="Image 3"
+                      class="main-image"
+                    />
+                    <img
+                      src="image/category-4.jpg"
+                      alt="Image 4"
+                      class="hover-image"
+                    />
+                    <div class="wishlist-icon">
+                      <i class="fas fa-heart"></i>
+                    </div>
+                  </a>
+                  <div class="new-label">NEW</div>
+                  <div class="product-info">
+                    <h5>Product Name 2</h5>
+                    <p>₹5,500.00</p>
+                  </div>
+                </div>
+                <div class="slide">
+                  <a href="gallary.html" class="image-link">
+                    <img
+                      src="image/category-3.jpg"
+                      alt="Image 3"
+                      class="main-image"
+                    />
+                    <img
+                      src="image/category-4.jpg"
+                      alt="Image 4"
+                      class="hover-image"
+                    />
+                    <div class="wishlist-icon">
+                      <i class="fas fa-heart"></i>
+                    </div>
+                  </a>
+                  <div class="new-label">NEW</div>
+                  <div class="product-info">
+                    <h5>Product Name 2</h5>
+                    <p>₹5,500.00</p>
+                  </div>
+                </div>
+                <div class="slide">
+                  <a href="gallary.html" class="image-link">
+                    <img
+                      src="image/category-3.jpg"
+                      alt="Image 3"
+                      class="main-image"
+                    />
+                    <img
+                      src="image/category-4.jpg"
+                      alt="Image 4"
+                      class="hover-image"
+                    />
+                    <div class="wishlist-icon">
+                      <i class="fas fa-heart"></i>
+                    </div>
+                  </a>
+                  <div class="new-label">NEW</div>
+                  <div class="product-info">
+                    <h5>Product Name 2</h5>
+                    <p>₹5,500.00</p>
+                  </div>
+                </div>
+                <div class="slide">
+                  <a href="gallary.html" class="image-link">
+                    <img
+                      src="image/category-3.jpg"
+                      alt="Image 3"
+                      class="main-image"
+                    />
+                    <img
+                      src="image/category-4.jpg"
+                      alt="Image 4"
+                      class="hover-image"
+                    />
+                    <div class="wishlist-icon">
+                      <i class="fas fa-heart"></i>
+                    </div>
+                  </a>
+                  <div class="new-label">NEW</div>
+                  <div class="product-info">
+                    <h5>Product Name 2</h5>
+                    <p>₹5,500.00</p>
+                  </div>
+                </div>
+                <div class="slide">
+                  <a href="gallary.html" class="image-link">
+                    <img
+                      src="image/category-3.jpg"
+                      alt="Image 3"
+                      class="main-image"
+                    />
+                    <img
+                      src="image/category-4.jpg"
+                      alt="Image 4"
+                      class="hover-image"
+                    />
+                    <div class="wishlist-icon">
+                      <i class="fas fa-heart"></i>
+                    </div>
+                  </a>
+                  <div class="new-label">NEW</div>
+                  <div class="product-info">
+                    <h5>Product Name 2</h5>
+                    <p>₹5,500.00</p>
+                  </div>
+                </div>
+                <div class="slide">
+                  <a href="gallary.html" class="image-link">
+                    <img
+                      src="image/category-3.jpg"
+                      alt="Image 3"
+                      class="main-image"
+                    />
+                    <img
+                      src="image/category-4.jpg"
+                      alt="Image 4"
+                      class="hover-image"
+                    />
+                    <div class="wishlist-icon">
+                      <i class="fas fa-heart"></i>
+                    </div>
+                  </a>
+                  <div class="new-label">NEW</div>
+                  <div class="product-info">
+                    <h5>Product Name 2</h5>
+                    <p>₹5,500.00</p>
+                  </div>
+                </div>
+                
+                <!-- Add more slides similarly as needed -->
+              </div>
+            </div>
+  
+            <!-- Slider controls (previous and next buttons) -->
+            <div class="slider-controls">
+              <button class="prev-btn">&lt;</button>
+              <button class="next-btn">&gt;</button>
+            </div>
+          </div>
+  
+          <!-- View All Products Button -->
+          <a href="collection.html">
+            <button type="button" class="btn-2">VIEW ALL PRODUCTS</button>
+          </a>
+        </div>
+      </div>
+    </div>
+    <!-- Footer -->
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="footer-background">
+        <div class="container">
+          <div class="row">
+            <!-- Follow Us Column -->
+            <div class="col-md-3 mb-4 mb-md-0">
+              <h5>Follow Us</h5>
+              <ul>
+                <li><a href="">New Arrivals</a></li>
+                <li><a href="">Kurta & Suit Sets</a></li>
+                <li><a href="">Lehenga Sets</a></li>
+                <li><a href="">Sarees</a></li>
+                <li><a href="">Bed Linens</a></li>
+                <li><a href="">Shoes</a></li>
+                <li><a href="">Sale</a></li>
+                <li><a href="">Relove</a></li>
+              </ul>
+            </div>
+
+            <!-- Contact Us Column -->
+            <div class="col-md-3 mb-4 mb-md-0">
+              <h5>Contact Us</h5>
+              <ul class="list-unstyled">
+                <li>
+                  <a href="mailto:contact@example.com"
+                    ><b>Crafts N Chisel LLC</b> - CNC Arts LLP</a
+                  >
+                </li>
+                <li>
+                  <a href="mailto:contact@example.com"
+                    ><b>Email</b>: contact@example.com</a
+                  >
+                </li>
+                <li>
+                  <a href="tel:+1234567890"
+                    ><b>Message us</b>: +1(408) 216-3825</a
+                  >
+                </li>
+                <li>
+                  <a href="https://wa.me/14082163825"
+                    ><b>Whatsapp link</b>: https://wa.me/14082163825</a
+                  >
+                </li>
+                <li>
+                  <a href="tel:+1234567890"><b>Phone</b>: +1 (234) 567-890</a>
+                </li>
+                <li>
+                  <a href="tel:+1234567890"
+                    ><b>Office Address</b>: 3901 Lick Mill Blvd, Santa Clara,
+                    CA, 95054</a
+                  >
+                </li>
+              </ul>
+            </div>
+
+            <!-- Company & Support Column -->
+            <div class="col-md-3 mb-4 mb-md-0">
+              <h5>Company & Support</h5>
+              <ul class="list-unstyled">
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Careers</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Terms of Service</a></li>
+              </ul>
+            </div>
+
+            <!-- Newsletter Column -->
+            <div class="col-md-3 mb-4 mb-md-0">
+              <h5>Follow Us</h5>
+              <div class="social-icons">
+                <a href="#" aria-label="Facebook"
+                  ><i class="bi bi-facebook"></i
+                ></a>
+                <a href="#" aria-label="Instagram"
+                  ><i class="bi bi-instagram"></i
+                ></a>
+                <a href="#" aria-label="Twitter"
+                  ><i class="bi bi-twitter"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="text-center mt-4">
+            <p>© 2024 Crafts N Chisel | Powered by Novel Solution Pvt</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Add background image after footer content -->
+      <div class="footer-image">
+        <img
+          src="image/footer-banner.jpg"
+          style="height: 530px; width: 100%"
+          alt="Footer Background"
+        />
+      </div>
+    </footer>
+    <!-- mobile footer -->
+    <!-- Footer -->
+    <footer class="mobile-footer d-lg-none">
+      <div class="container-fluid">
+        <ul class="navbar-nav mb-lg-0 d-flex flex-row justify-content-around">
+          <li class="nav-item">
+            <a class="nav-icon" href="index.html" id="homeFooterIcon">
+              <i class="bi bi-house"></i>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-icon" href="login.html" id="loginFooterIcon">
+              <i class="bi bi-person"></i>
+            </a>
+          </li>
+          <li class="nav-item">
+            <!-- Search icon -->
+            <a class="nav-icon search-trigger" href="#" id="openSearch">
+              <i class="bi bi-search"></i>
+            </a>
+          </li>
+          <div class="footer-cart-icon">
+            <a class="nav-icon" href="#" id="footerCartIcon">
+              <i class="bi bi-bag"></i>
+            </a>
+          </div>
+        </ul>
+      </div>
+    </footer>
+<script>// Get all thumbnail images and full images
+  const thumbnails = document.querySelectorAll('.thumbnail-img');
+  const fullImages = document.querySelectorAll('.full-img');
+  
+  thumbnails.forEach((thumbnail, index) => {
+    thumbnail.addEventListener('click', () => {
+      const targetImage = fullImages[index];
+      
+      targetImage.scrollIntoView({
+        behavior: 'smooth',  
+        block: 'start'       
+      });
+      
+      fullImages.forEach(img => img.classList.remove('active'));
+      targetImage.classList.add('active');
+    });
+  });
+  </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>

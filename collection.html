@@ -1,0 +1,866 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CraftyChisel</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+
+  </head>
+  <body>
+    <!-- top-Banner -->
+     <!-- marquee -->
+     <div class="marquee-container bg_shade">
+      <div class="marquee">
+        <span
+          >Get 10% off. Use code <strong>PREPAID</strong> to get 10% off. to get
+          10% off.to get 10% off. to get 10% off.
+        </span>
+        <span
+          >Get 10% off. Use code <strong>PREPAID</strong> to get 10% off.
+        </span>
+        <span
+          >Get 10% off. Use code <strong>PREPAID</strong> to get 10% off.
+        </span>
+      </div>
+    </div>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light shadow-sm">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">
+          <img src="image/logo.jpg" alt="Logo" class="img-fluid" style="max-height: 50px" />
+        </a>
+    
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+    
+        <div class="collapse navbar-collapse" id="navbarText">
+          <button class="navbar-close d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText">
+            <span class="close-icon">&times;</span>
+          </button>
+    
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <!-- Home Dropdown -->
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+    
+            <!-- New Add-ins Dropdown -->
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="newAddinsDropdown" role="button" data-bs-toggle="dropdown">
+                New Add-ins
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Add-in 3</a>
+                  <a class="dropdown-item" href="#">Add-in 3</a>
+                  <a class="dropdown-item" href="#">Add-in 3</a>
+                  <a class="dropdown-item" href="#">Add-in 3</a>
+              </li>
+              <li><a class="dropdown-item" href="#">Add-in 3</a>
+                <a class="dropdown-item" href="#">Add-in 3</a>
+                <a class="dropdown-item" href="#">Add-in 3</a>
+                <a class="dropdown-item" href="#">Add-in 3</a>
+            </li>
+                <li><a class="dropdown-item" href="#">Add-in 3</a>
+                    <a class="dropdown-item" href="#">Add-in 3</a>
+                    <a class="dropdown-item" href="#">Add-in 3</a>
+                    <a class="dropdown-item" href="#">Add-in 3</a>
+                </li>
+                <li class="dropdown-item image-column">
+                  <img src="image/about-banner.jpg" alt="Add-in Image" />
+                </li>
+              </ul>
+            </li>
+    
+            <!-- Idols & Statues Dropdown -->
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="idolsDropdown" role="button" data-bs-toggle="dropdown">
+                Idols & Statues
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Add-in 3</a>
+                  <a class="dropdown-item" href="#">Add-in 3</a>
+                  <a class="dropdown-item" href="#">Add-in 3</a>
+                  <a class="dropdown-item" href="#">Add-in 3</a>
+              </li>
+              <li><a class="dropdown-item" href="#">Add-in 3</a>
+                <a class="dropdown-item" href="#">Add-in 3</a>
+                <a class="dropdown-item" href="#">Add-in 3</a>
+                <a class="dropdown-item" href="#">Add-in 3</a>
+            </li>
+                <li><a class="dropdown-item" href="#">Add-in 3</a>
+                    <a class="dropdown-item" href="#">Add-in 3</a>
+                    <a class="dropdown-item" href="#">Add-in 3</a>
+                    <a class="dropdown-item" href="#">Add-in 3</a>
+                </li>
+                <li class="dropdown-item image-column">
+                  <img src="image/sub_Item-1.jpg" alt="Add-in Image" />
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown" id="statuesMenu">
+              <a class="nav-link dropdown-toggle" href="#" id="statuesDropdownToggle" role="button" data-bs-toggle="dropdown">
+                Statues
+              </a>
+              <ul class="dropdown-menu" id="statuesDropdownMenu">
+                <li><a class="dropdown-item" href="#">Statue 1</a></li>
+                <li><a class="dropdown-item" href="#">Statue 2</a></li>
+                <li class="dropdown-submenu" id="statue3Submenu">
+                  <a class="dropdown-item dropdown-toggle" href="#">Statue 3</a>
+                  <ul class="submenu dropdown-menu" id="statue3DropdownMenu">
+                    <li><a class="dropdown-item" href="#">Sub-item 1</a></li>
+                    <li><a class="dropdown-item" href="#">Sub-item 2</a></li>
+                    <li><a class="dropdown-item" href="#">Sub-item 3</a></li>
+                  </ul>
+                </li>
+                <li><a class="dropdown-item" href="#">Statue 4</a></li>
+              </ul>
+            </li>
+            </ul>
+            </li>
+          </ul>
+    
+          <!-- Right-aligned icons -->
+          <div class="d-flex align-items-center ms-auto">
+            <ul class="navbar-nav mb-2 mb-lg-0 d-flex flex-row">
+              <li class="nav-item">
+                <a class="nav-icon" href="login.html"><i class="bi bi-person"></i></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-icon search-trigger" href="#"><i class="bi bi-search"></i></a>
+              </li>
+              <li class="nav-item position-relative">
+                <a class="nav-icon" href="#" id="cartIcon"><i class="bi bi-bag"></i></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+<!-- Search Modal -->
+<div class="modal" id="searchModal">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content" >
+      <div class="modal-body">
+        <input type="text" class="form-control" placeholder="Search..." id="searchInput" />
+        <button type="button" class="btn-close" id="closeModal"></button>
+        <button type="button" class="btn btn-primary" id="searchButton">Search</button>
+      </div>
+      <!-- Container for displaying search results -->
+      <div id="searchResults" class="search-results-container"></div>
+    </div>
+  </div>
+</div>
+<!-- Sidebar -->
+<div class="sidebar" id="sidebar">
+  <span class="close-btn" id="closeSidebar">&times;</span>
+  <div class="content">
+    <h1 class="text">Your Cart</h1>
+
+    <!-- Product Item -->
+    <div class="Add-Cart">
+      <div class="product-img">
+        <img src="image/category-3.jpg" alt="Product Image" />
+      </div>
+      <div class="product-details">
+        <h6>Lavender Pintucks Straight Suit Set</h6>
+        <p>Rs. 8,500.00</p>
+        <p>Size: XS</p>
+        <div class="counter_section">
+       
+        <span class="delete-icon">&#128465;</span> <!-- Delete icon on the right -->
+      </div>
+      </div>
+    </div>
+
+    <!-- Coupon Section -->
+    <div class="coupon-section">
+      <p><strong>Flat 20% OFF</strong></p>
+      <p>Use Coupon Code: <span class="coupon-code">DIWALI20</span></p>
+    </div>
+
+    <!-- Bottom Section -->
+    <div class="sidebar-bottom">
+      
+      <p>Order special instructions</p>
+      <div class="check-out-price">
+        <strong>Estimated total</strong>
+        <span>Rs. 8,500.00</span>
+      </div>
+      <p>Tax included and shipping & discounts calculated at checkout</p>
+      <a href="Cart.html">
+        <button type="button"  class="btn-checkout bg_shade">Check out</button>
+      </a>
+     
+      
+    </div>
+  </div>
+</div>
+    <!-- add to cart -->
+    <div class="container-fluid">
+      <div class="heading">NEW ADDITIONS</div>
+      <div class="row-1">
+        <div class="dropdown">
+          <button class="dropbtn mt-2">Sort</button>
+          <div class="dropdown-content">
+            <a href="#">FEATURED</a>
+            <a href="#">BEST SELLING</a>
+            <a href="#">ALPHABETICALLY,A-Z</a>
+            <a href="#">ALPHABETICALLY,Z-A</a>
+            <a href="#">PRICE, LOW TO HIGH</a>
+            <a href="#">PRICE, LOW TO LOW</a>
+            <a href="#">DATE, OLD TO NEW</a>
+          </div>
+        </div>
+        <button class="filter-button m-2" onclick="toggleFilter()">
+          FILTER
+        </button>
+      </div>
+    </div>
+
+    <div id="filterSection" class="filter-section">
+      <div class="filter-content">
+          <div class="filter-header">
+              <span>Filter</span>
+              <span class="close-icon" onclick="closeFilterSection()">&#10005;</span>
+          </div>
+          <div class="accordion">
+              <div class="accordion-item">
+                  <div class="accordion-header" onclick="toggleAccordion('size')">
+                      <span class="accordion-title">Size</span>
+                      <span class="accordion-icon">+</span>
+                  </div>
+                  <div id="size" class="accordion-body">
+                      <div class="filter-item">
+                          <input type="checkbox" class="filter" id="size1" name="size" value="10-15">
+                          <label for="size1">10" - 15" (2)</label>
+                      </div>
+                      <div class="filter-item">
+                          <input type="checkbox" id="size2" name="size" value="20+">
+                          <label for="size2">20" and above (3)</label>
+                      </div>
+                  </div>
+              </div>
+              <div class="accordion-item">
+                  <div class="accordion-header" onclick="toggleAccordion('material')">
+                      <span class="accordion-title">Material</span>
+                      <span class="accordion-icon">+</span>
+                  </div>
+                  <div id="material" class="accordion-body">
+                      <div class="filter-item">
+                          <input type="checkbox" id="material1" name="material" value="brass">
+                          <label for="material1">Brass (5)</label>
+                      </div>
+                  </div>
+              </div>
+              <div class="accordion-item">
+                  <div class="accordion-header" onclick="toggleAccordion('productType')">
+                      <span class="accordion-title">Product type</span>
+                      <span class="accordion-icon">+</span>
+                  </div>
+                  <div id="productType" class="accordion-body">
+                      <div class="filter-item">
+                          <input type="checkbox" id="productType1" name="productType" value="copperFinish">
+                          <label for="productType1">Copper Finish (3)</label>
+                      </div>
+                      <div class="filter-item">
+                          <input type="checkbox" id="productType2" name="productType" value="cowCalfSet">
+                          <label for="productType2">Cow & Calf Set (1)</label>
+                      </div>
+                      <div class="filter-item">
+                          <input type="checkbox" id="productType3" name="productType" value="distressedWoodenFrame">
+                          <label for="productType3">Distressed Wooden Frame (1)</label>
+                      </div>
+                      <div class="filter-item">
+                          <input type="checkbox" id="productType4" name="productType" value="krishnaJhula">
+                          <label for="productType4">Krishna Jhula (1)</label>
+                      </div>
+                      <div class="filter-item">
+                          <input type="checkbox" id="productType5" name="productType" value="lordKrishna">
+                          <label for="productType5">Lord Krishna (57)</label>
+                      </div>
+                      <div class="filter-item">
+                          <input type="checkbox" id="productType6" name="productType" value="marbleDust">
+                          <label for="productType6">Marble Dust (16)</label>
+                      </div>
+                      <div class="filter-item">
+                          <input type="checkbox" id="productType7" name="productType" value="prabhavali">
+                          <label for="productType7">Prabhavali (1)</label>
+                      </div>
+                      <div class="filter-item">
+                          <input type="checkbox" id="productType8" name="productType" value="radhaKrishna">
+                          <label for="productType8">Radha Krishna (22)</label>
+                      </div>
+                      <div class="filter-item">
+                          <input type="checkbox" id="productType9" name="productType" value="shankuChakra">
+                          <label for="productType9">Shanku & Chakra (2)</label>
+                      </div>
+                  </div>
+              </div>
+              <div class="accordion-item">
+                  <div class="accordion-header" onclick="toggleAccordion('moreFilters')">
+                      <span class="accordion-title">MORE FILTERS</span>
+                      <span class="accordion-icon">+</span>
+                  </div>
+                  <div id="moreFilters" class="accordion-body">
+                      <div class="filter-item">
+                          <input type="checkbox" id="moreFilters1" name="moreFilters" value="copperFinish">
+                          <label for="moreFilters1">Copper Finish (3)</label>
+                      </div>
+                      <div class="filter-item">
+                          <input type="checkbox" id="moreFilters2" name="moreFilters" value="cowCalfSet">
+                          <label for="moreFilters2">Cow & Calf Set (1)</label>
+                      </div>
+                      <div class="filter-item">
+                          <input type="checkbox" id="moreFilters3" name="moreFilters" value="distressedWoodenFrame">
+                          <label for="moreFilters3">Distressed Wooden Frame (1)</label>
+                      </div>
+                      <div class="filter-item">
+                          <input type="checkbox" id="moreFilters4" name="moreFilters" value="krishnaJhula">
+                          <label for="moreFilters4">Krishna Jhula (1)</label>
+                      </div>
+                      <div class="filter-item">
+                          <input type="checkbox" id="moreFilters5" name="moreFilters" value="lordKrishna">
+                          <label for="moreFilters5">Lord Krishna (57)</label>
+                      </div>
+                      <div class="filter-item">
+                          <input type="checkbox" id="moreFilters6" name="moreFilters" value="marbleDust">
+                          <label for="moreFilters6">Marble Dust (16)</label>
+                      </div>
+                      <div class="filter-item">
+                          <input type="checkbox" id="moreFilters7" name="moreFilters" value="prabhavali">
+                          <label for="moreFilters7">Prabhavali (1)</label>
+                      </div>
+                      <div class="filter-item">
+                          <input type="checkbox" id="moreFilters8" name="moreFilters" value="radhaKrishna">
+                          <label for="moreFilters8">Radha Krishna (22)</label>
+                      </div>
+                      <div class="filter-item">
+                          <input type="checkbox" id="moreFilters9" name="moreFilters" value="shankuChakra">
+                          <label for="moreFilters9">Shanku & Chakra (2)</label>
+                      </div>
+                      <div class="filter-item">
+                          <input type="checkbox" id="moreFilters10" name="moreFilters" value="lordHanuman">
+                          <label for="moreFilters10">Lord Hanuman (1)</label>
+                      </div>
+                      <div class="filter-item">
+                          <input type="checkbox" id="moreFilters11" name="moreFilters" value="lordKrishna2">
+                          <label for="moreFilters11">Lord Krishna (2)</label>
+                      </div>
+                      <div class="filter-item">
+                          <input type="checkbox" id="moreFilters12" name="moreFilters" value="lordShiva">
+                          <label for="moreFilters12">Lord Shiva (1)</label>
+                      </div>
+                      <div class="filter-item">
+                          <input type="checkbox" id="moreFilters13" name="moreFilters" value="lordVishnu">
+                          <label for="moreFilters13">Lord Vishnu (1)</label>
+                      </div>
+                      <div class="filter-item">
+                          <input type="checkbox" id="moreFilters14" name="moreFilters" value="peacockDiya">
+                          <label for="moreFilters14">Peacock Diya (4)</label>
+                      </div>
+                      <div class="filter-item">
+                          <input type="checkbox" id="moreFilters15" name="moreFilters" value="tanjorePainting">
+                          <label for="moreFilters15">Tanjore Painting (2)</label>
+                      </div>
+                      <div class="filter-item">
+                          <input type="checkbox" id="moreFilters16" name="moreFilters" value="urli">
+                          <label for="moreFilters16">Urli (1)</label>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+   <div class="container image-section">
+    <div class="row">
+      <!-- Product 1 (Saree) -->
+      <div class="col-12 col-md-6 col-lg-3 product" data-product-name="Saree">
+        <div class="image-card">
+          <a href="gallary.html"><img src="image/category-3.jpg" alt="Saree" class="main-img" /></a>
+          <a href="gallary.html"><img src="image/category-4.jpg" alt="Saree Hover" class="hover-img" /></a>
+          <div class="overlay">
+            <div class="icon quickview" title="Quick View">
+              <i class="bi bi-eye"></i>
+            </div>
+            <div class="icon wishlist" title="Wishlist">
+              <i class="bi bi-heart"></i>
+            </div>
+            <div class="icon add-to-cart" title="Add to Cart">
+              <i class="bi bi-cart"></i>
+            </div>
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">Saree</h5>
+            <p class="card-price">₹ 3,000.00</p>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Product 2 (Suit) -->
+      <div class="col-12 col-md-6 col-lg-3 product" data-product-name="Suit">
+        <div class="image-card">
+          <a href="gallary.html"><img src="image/category-3.jpg" alt="Suit" class="main-img" /></a>
+          <a href="gallary.html"><img src="image/category-4.jpg" alt="Suit Hover" class="hover-img" /></a>
+          <div class="overlay">
+            <div class="icon quickview" title="Quick View">
+              <i class="bi bi-eye"></i>
+            </div>
+            <div class="icon wishlist" title="Wishlist">
+              <i class="bi bi-heart"></i>
+            </div>
+            <div class="icon add-to-cart" title="Add to Cart">
+              <i class="bi bi-cart"></i>
+            </div>
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">Suit</h5>
+            <p class="card-price">₹ 2,500.00</p>
+          </div>
+        </div>
+      </div>
+  
+      <!-- Product 3 (Shirt) -->
+      <div class="col-12 col-md-6 col-lg-3 product" data-product-name="Shirt">
+        <div class="image-card">
+          <a href="gallary.html"><img src="image/category-2.jpg" alt="Shirt" class="main-img" /></a>
+          <a href="gallary.html"><img src="image/category-1.jpg" alt="Shirt Hover" class="hover-img" /></a>
+          <div class="overlay">
+            <div class="icon quickview" title="Quick View">
+              <i class="bi bi-eye"></i>
+            </div>
+            <div class="icon wishlist" title="Wishlist">
+              <i class="bi bi-heart"></i>
+            </div>
+            <div class="icon add-to-cart" title="Add to Cart">
+              <i class="bi bi-cart"></i>
+            </div>
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">Shirt</h5>
+            <p class="card-price">₹ 1,200.00</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-md-6 col-lg-3 product" data-product-name="Shirt">
+        <div class="image-card">
+          <a href="gallary.html"><img src="image/category-2.jpg" alt="Shirt" class="main-img" /></a>
+          <a href="gallary.html"><img src="image/category-1.jpg" alt="Shirt Hover" class="hover-img" /></a>
+          <div class="overlay">
+            <div class="icon quickview" title="Quick View">
+              <i class="bi bi-eye"></i>
+            </div>
+            <div class="icon wishlist" title="Wishlist">
+              <i class="bi bi-heart"></i>
+            </div>
+            <div class="icon add-to-cart" title="Add to Cart">
+              <i class="bi bi-cart"></i>
+            </div>
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">Shirt</h5>
+            <p class="card-price">₹ 1,200.00</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-md-6 col-lg-3 product" data-product-name="Shirt">
+        <div class="image-card">
+          <a href="gallary.html"><img src="image/category-2.jpg" alt="Shirt" class="main-img" /></a>
+          <a href="gallary.html"><img src="image/category-1.jpg" alt="Shirt Hover" class="hover-img" /></a>
+          <div class="overlay">
+            <div class="icon quickview" title="Quick View">
+              <i class="bi bi-eye"></i>
+            </div>
+            <div class="icon wishlist" title="Wishlist">
+              <i class="bi bi-heart"></i>
+            </div>
+            <div class="icon add-to-cart" title="Add to Cart">
+              <i class="bi bi-cart"></i>
+            </div>
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">Shirt</h5>
+            <p class="card-price">₹ 1,200.00</p>
+          </div>
+        </div>
+      </div>
+  
+      <!-- Product 4 (Kurti) -->
+      <div class="col-12 col-md-6 col-lg-3 product" data-product-name="Kurti">
+        <div class="image-card">
+          <a href="gallary.html"><img src="image/category-4.jpg" alt="Kurti" class="main-img" /></a>
+          <a href="gallary.html"><img src="image/category-3.jpg" alt="Kurti Hover" class="hover-img" /></a>
+          <div class="overlay">
+            <div class="icon quickview" title="Quick View">
+              <i class="bi bi-eye"></i>
+            </div>
+            <div class="icon wishlist" title="Wishlist">
+              <i class="bi bi-heart"></i>
+            </div>
+            <div class="icon add-to-cart" title="Add to Cart">
+              <i class="bi bi-cart"></i>
+            </div>
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">Kurti</h5>
+            <p class="card-price">₹ 2,000.00</p>
+          </div>
+        </div>  
+      </div>
+      <div class="col-12 col-md-6 col-lg-3 product" data-product-name="Kurti">
+        <div class="image-card">
+          <a href="gallary.html"><img src="image/category-4.jpg" alt="Kurti" class="main-img" /></a>
+          <a href="gallary.html"><img src="image/category-3.jpg" alt="Kurti Hover" class="hover-img" /></a>
+          <div class="overlay">
+            <div class="icon quickview" title="Quick View">
+              <i class="bi bi-eye"></i>
+            </div>
+            <div class="icon wishlist" title="Wishlist">
+              <i class="bi bi-heart"></i>
+            </div>
+            <div class="icon add-to-cart" title="Add to Cart">
+              <i class="bi bi-cart"></i>
+            </div>
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">Kurti</h5>
+            <p class="card-price">₹ 2,000.00</p>
+          </div>
+        </div>  
+      </div>
+      <div class="col-12 col-md-6 col-lg-3 product" data-product-name="Kurti">
+        <div class="image-card">
+          <a href="gallary.html"><img src="image/category-4.jpg" alt="Kurti" class="main-img" /></a>
+          <a href="gallary.html"><img src="image/category-3.jpg" alt="Kurti Hover" class="hover-img" /></a>
+          <div class="overlay">
+            <div class="icon quickview" title="Quick View">
+              <i class="bi bi-eye"></i>
+            </div>
+            <div class="icon wishlist" title="Wishlist">
+              <i class="bi bi-heart"></i>
+            </div>
+            <div class="icon add-to-cart" title="Add to Cart">
+              <i class="bi bi-cart"></i>
+            </div>
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">Kurti</h5>
+            <p class="card-price">₹ 2,000.00</p>
+          </div>
+        </div>  
+      </div>
+      <div class="col-12 col-md-6 col-lg-3 product" data-product-name="Kurti">
+        <div class="image-card">
+          <a href="gallary.html"><img src="image/category-4.jpg" alt="Kurti" class="main-img" /></a>
+          <a href="gallary.html"><img src="image/category-3.jpg" alt="Kurti Hover" class="hover-img" /></a>
+          <div class="overlay">
+            <div class="icon quickview" title="Quick View">
+              <i class="bi bi-eye"></i>
+            </div>
+            <div class="icon wishlist" title="Wishlist">
+              <i class="bi bi-heart"></i>
+            </div>
+            <div class="icon add-to-cart" title="Add to Cart">
+              <i class="bi bi-cart"></i>
+            </div>
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">Kurti</h5>
+            <p class="card-price">₹ 2,000.00</p>
+          </div>
+        </div>  
+      </div>
+      <div class="col-12 col-md-6 col-lg-3 product" data-product-name="Kurti">
+        <div class="image-card">
+          <a href="gallary.html"><img src="image/category-4.jpg" alt="Kurti" class="main-img" /></a>
+          <a href="gallary.html"><img src="image/category-3.jpg" alt="Kurti Hover" class="hover-img" /></a>
+          <div class="overlay">
+            <div class="icon quickview" title="Quick View">
+              <i class="bi bi-eye"></i>
+            </div>
+            <div class="icon wishlist" title="Wishlist">
+              <i class="bi bi-heart"></i>
+            </div>
+            <div class="icon add-to-cart" title="Add to Cart">
+              <i class="bi bi-cart"></i>
+            </div>
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">Kurti</h5>
+            <p class="card-price">₹ 2,000.00</p>
+          </div>
+        </div>  
+      </div>
+      <div class="col-12 col-md-6 col-lg-3 product" data-product-name="Kurti">
+        <div class="image-card">
+          <a href="gallary.html"><img src="image/category-4.jpg" alt="Kurti" class="main-img" /></a>
+          <a href="gallary.html"><img src="image/category-3.jpg" alt="Kurti Hover" class="hover-img" /></a>
+          <div class="overlay">
+            <div class="icon quickview" title="Quick View">
+              <i class="bi bi-eye"></i>
+            </div>
+            <div class="icon wishlist" title="Wishlist">
+              <i class="bi bi-heart"></i>
+            </div>
+            <div class="icon add-to-cart" title="Add to Cart">
+              <i class="bi bi-cart"></i>
+            </div>
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">Kurti</h5>
+            <p class="card-price">₹ 2,000.00</p>
+          </div>
+        </div>  
+      </div>
+      <div class="col-12 col-md-6 col-lg-3 product" data-product-name="cargo">
+        <div class="image-card">
+          <a href="gallary.html"><img src="image/category-4.jpg" alt="cargo" class="main-img" /></a>
+          <a href="gallary.html"><img src="image/category-3.jpg" alt="cargo Hover" class="hover-img" /></a>
+          <div class="overlay">
+            <div class="icon quickview" title="Quick View">
+              <i class="bi bi-eye"></i>
+            </div>
+            <div class="icon wishlist" title="Wishlist">
+              <i class="bi bi-heart"></i>
+            </div>
+            <div class="icon add-to-cart" title="Add to Cart">
+              <i class="bi bi-cart"></i>
+            </div>
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">cargo</h5>
+            <p class="card-price">₹ 2,000.00</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-md-6 col-lg-3 product" data-product-name="Yellow Suit">
+        <div class="image-card">
+          <a href="gallary.html"><img src="image/fashion_c1.jpg" alt="Yellow Suit" class="main-img" /></a>
+          <a href="gallary.html"><img src="image/fashion_c2.jpg" alt="Yellow Suit Hover" class="hover-img" /></a>
+          <div class="overlay">
+            <div class="icon quickview" title="Quick View">
+              <i class="bi bi-eye"></i>
+            </div>
+            <div class="icon wishlist" title="Wishlist">
+              <i class="bi bi-heart"></i>
+            </div>
+            <div class="icon add-to-cart" title="Add to Cart">
+              <i class="bi bi-cart"></i>
+            </div>
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">Yellow Suit</h5>
+            <p class="card-price">₹ 2,000.00</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-md-6 col-lg-3 product" data-product-name="Blue Suit">
+        <div class="image-card">
+          <a href="gallary.html"><img src="image/fashion_c3.jpg" alt="Blue Suit" class="main-img" /></a>
+          <a href="gallary.html"><img src="image/fashion_c4.jpg" alt="Blue Suit Hover" class="hover-img" /></a>
+          <div class="overlay">
+            <div class="icon quickview" title="Quick View">
+              <i class="bi bi-eye"></i>
+            </div>
+            <div class="icon wishlist" title="Wishlist">
+              <i class="bi bi-heart"></i>
+            </div>
+            <div class="icon add-to-cart" title="Add to Cart">
+              <i class="bi bi-cart"></i>
+            </div>
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">Blue Suit</h5>
+            <p class="card-price">₹ 2,000.00</p>
+          </div>
+        </div>
+      </div>
+      <!-- Additional Products... -->
+    </div>
+  </div>
+  
+    <nav aria-label="Page navigation" class="pagination-container">
+      <ul class="pagination">
+        <li class="page-item"><a class="page-link" href="#">1</a></li>
+        <li class="page-item"><a class="page-link" href="#">2</a></li>
+        <li class="page-item"><a class="page-link" href="#">3</a></li>
+        <li class="page-item"><a class="page-link" href="#">4</a></li>
+        <li class="page-item"><a class="page-link" href="#">›</a></li>
+      </ul>
+    </nav>
+
+    <!-- RECENTLY VIWED -->
+
+    <!-- <section class="addition-section py-5">
+  <div class="container">
+      <h2 class="text-center mb-4">Recently viewed</h2>
+      <div class="carousel-wrapper">
+          <i id="left" class="fa-solid fa-angle-left"></i>
+          <ul class="carousel">
+              <li class="card">
+                 <img src="image/addition-1.jpg" alt="Image 1" draggable="false">
+                  <h2>Shubh Labh Ganesha Wall Hanging</h2>
+                    <span>Rs. 10,700.00</span>
+              </li>
+              <li class="card">
+                <img src="image/addition-2.jpg" alt="Image 2" draggable="false">
+                  <h2>Shubh Labh Ganesha Wall Hanging</h2>
+                  <span>Rs. 10,700.00</span>
+              </li>
+              <li class="card">
+                <img src="image/addition-3.jpg" alt="Image 3" draggable="false">
+                  <h2>Shubh Labh Ganesha Wall Hanging</h2>
+                  <span>Rs. 10,700.00</span>
+              </li>
+          </ul>
+          <i id="right" class="fa-solid fa-angle-right"></i>
+      </div>
+      <a href="#"> <button type="button" class="btn-2">VIEW ALL PRODUCTS</button></a>
+  </div>
+</section> -->
+
+    <!-- Footer -->
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="footer-background">
+        <div class="container">
+          <div class="row">
+            <!-- Follow Us Column -->
+            <div class="col-md-3 mb-4 mb-md-0">
+              <h5>Follow Us</h5>
+              <ul>
+                <li><a href="">New Arrivals</a></li>
+                <li><a href="">Kurta & Suit Sets</a></li>
+                <li><a href="">Lehenga Sets</a></li>
+                <li><a href="">Sarees</a></li>
+                <li><a href="">Bed Linens</a></li>
+                <li><a href="">Shoes</a></li>
+                <li><a href="">Sale</a></li>
+                <li><a href="">Relove</a></li>
+              </ul>
+            </div>
+
+            <!-- Contact Us Column -->
+            <div class="col-md-3 mb-4 mb-md-0">
+              <h5>Contact Us</h5>
+              <ul class="list-unstyled">
+                <li>
+                  <a href="mailto:contact@example.com"
+                    ><b>Crafts N Chisel LLC</b> - CNC Arts LLP</a
+                  >
+                </li>
+                <li>
+                  <a href="mailto:contact@example.com"
+                    ><b>Email</b>: contact@example.com</a
+                  >
+                </li>
+                <li>
+                  <a href="tel:+1234567890"
+                    ><b>Message us</b>: +1(408) 216-3825</a
+                  >
+                </li>
+                <li>
+                  <a href="https://wa.me/14082163825"
+                    ><b>Whatsapp link</b>: https://wa.me/14082163825</a
+                  >
+                </li>
+                <li>
+                  <a href="tel:+1234567890"><b>Phone</b>: +1 (234) 567-890</a>
+                </li>
+                <li>
+                  <a href="tel:+1234567890"
+                    ><b>Office Address</b>: 3901 Lick Mill Blvd, Santa Clara,
+                    CA, 95054</a
+                  >
+                </li>
+              </ul>
+            </div>
+
+            <!-- Company & Support Column -->
+            <div class="col-md-3 mb-4 mb-md-0">
+              <h5>Company & Support</h5>
+              <ul class="list-unstyled">
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Careers</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Terms of Service</a></li>
+              </ul>
+            </div>
+
+            <!-- Newsletter Column -->
+            <div class="col-md-3 mb-4 mb-md-0">
+              <h5>Follow Us</h5>
+              <div class="social-icons">
+                <a href="#" aria-label="Facebook"
+                  ><i class="bi bi-facebook"></i
+                ></a>
+                <a href="#" aria-label="Instagram"
+                  ><i class="bi bi-instagram"></i
+                ></a>
+                <a href="#" aria-label="Twitter"
+                  ><i class="bi bi-twitter"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="text-center mt-4">
+            <p>© 2024 Crafts N Chisel | Powered by Novel Solution Pvt</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Add background image after footer content -->
+      <div class="footer-image">
+        <img
+          src="image/footer-banner.jpg"
+          style="height: 530px; width: 100%"
+          alt="Footer Background"
+        />
+      </div>
+    </footer>
+    <!-- mobile footer -->
+    <!-- Footer -->
+    <footer class="mobile-footer d-lg-none">
+      <div class="container-fluid">
+        <ul class="navbar-nav mb-lg-0 d-flex flex-row justify-content-around">
+          <li class="nav-item">
+            <a class="nav-icon" href="index.html" id="homeFooterIcon">
+              <i class="bi bi-house"></i>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-icon" href="login.html" id="loginFooterIcon">
+              <i class="bi bi-person"></i>
+            </a>
+          </li>
+          <li class="nav-item">
+            <!-- Search icon -->
+            <a class="nav-icon search-trigger" href="#" id="openSearch">
+              <i class="bi bi-search"></i>
+            </a>
+          </li>
+          <div class="footer-cart-icon">
+            <a class="nav-icon" href="#" id="footerCartIcon">
+              <i class="bi bi-bag"></i>
+            </a>
+          </div>
+        </ul>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+   
+  </body>
+</html>

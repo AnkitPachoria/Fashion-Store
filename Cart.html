@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CraftyChisel</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- top-Banner -->
+    <!-- marquee -->
+    <div class="marquee-container bg_shade">
+      <div class="marquee">
+        <span
+          >Get 10% off. Use code <strong>PREPAID</strong> to get 10% off. to get
+          10% off.to get 10% off. to get 10% off.
+        </span>
+        <span
+          >Get 10% off. Use code <strong>PREPAID</strong> to get 10% off.
+        </span>
+        <span
+          >Get 10% off. Use code <strong>PREPAID</strong> to get 10% off.
+        </span>
+      </div>
+    </div>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light shadow-sm">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">
+          <img src="image/logo.jpg" alt="Logo" class="img-fluid" style="max-height: 50px" />
+        </a>
+      </div>
+    </nav>
+    <!--  Cart section -->
+    <div class="checkout-cart container ">
+      <!-- Left Section (User Information) -->
+      <div class="checkout-cart-left ">
+        <!-- Contact Information -->
+        <h5>Contact Information</h5>
+        <input type="email" placeholder="Email" id="contactEmail" class="checkout-cart-input" />
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" id="newsletterSignup" />
+          <label class="form-check-label" for="newsletterSignup">Email me with news and offers</label>
+        </div>
+      
+        <!-- Delivery Information -->
+        <h5>Delivery Information</h5>
+        <div class="row">
+          <div class="col">
+            <input type="text" placeholder="First name" id="deliveryFirstName" class="checkout-cart-input" />
+          </div>
+          <div class="col">
+            <input type="text" placeholder="Last name" id="deliveryLastName" class="checkout-cart-input" />
+          </div>
+        </div>
+        
+        <!-- Delivery Country as Dropdown -->
+        <select id="deliveryCountry" class="checkout-cart-input">
+          <option value="India">India</option>
+          <option value="USA">United States</option>
+          <option value="Canada">Canada</option>
+          <option value="UK">United Kingdom</option>
+          <!-- Add other countries as needed -->
+        </select>
+      
+        <input type="text" placeholder="Company (optional)" id="deliveryCompany" class="checkout-cart-input" />
+        <input type="text" placeholder="Address" id="deliveryAddress" class="checkout-cart-input" />
+        <input type="text" placeholder="Apartment, suite, etc. (optional)" id="deliveryApartment" class="checkout-cart-input" />
+      
+        <div class="row">
+          <div class="col">
+            <input type="text" placeholder="City" id="deliveryCity" class="checkout-cart-input" />
+          </div>
+          <div class="col">
+            <input type="text" placeholder="State" id="deliveryState" class="checkout-cart-input" />
+          </div>
+          <div class="col">
+            <input type="text" placeholder="PIN code" id="deliveryPinCode" class="checkout-cart-input" />
+          </div>
+        </div>
+        
+        <input type="text" placeholder="Phone (optional)" id="deliveryPhone" class="checkout-cart-input" />
+      
+        <!-- Payment Information -->
+        <div class="checkout-cart-payment">
+          <h5>Payment Information</h5>
+          <p>All transactions are secure and encrypted.</p>
+      
+          <!-- Payment Method - Credit Card -->
+          <div class="form-check">
+            <input class="form-check-input" type="radio" name="paymentMethod" id="paymentCreditCard" checked />
+            <label class="form-check-label" for="paymentCreditCard">Credit card</label>
+          </div>
+          <div class="payment-icons d-flex justify-content-between mt-3">
+            <img src="https://img.icons8.com/color/48/visa.png" alt="Visa" width="40" />
+            <img src="https://img.icons8.com/color/48/mastercard.png" alt="MasterCard" width="40" />
+            <img src="https://img.icons8.com/color/48/amex.png" alt="American Express" width="40" />
+            <img src="https://img.icons8.com/color/48/discover.png" alt="Discover" width="40" />
+          </div>
+          <input type="text" placeholder="Card number" id="creditCardNumber" class="checkout-cart-input" />
+          <div class="row">
+            <div class="col">
+              <input type="text" placeholder="Expiration date (MM / YY)" id="creditCardExpiration" class="checkout-cart-input" />
+            </div>
+            <div class="col">
+              <input type="text" placeholder="Security code" id="creditCardSecurityCode" class="checkout-cart-input" />
+            </div>
+          </div>
+          <input type="text" placeholder="Name on card" id="creditCardName" class="checkout-cart-input" />
+          
+          <!-- Billing Address Checkbox -->
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" id="billingAddressSameAsShipping" onclick="toggleBillingAddress()" />
+            <label class="form-check-label" for="billingAddressSameAsShipping">Use shipping address as billing address</label>
+          </div>
+      
+          <!-- Billing Address Section (Initially Hidden) -->
+          <div id="billingAddressSection" style="display:none;">
+            <!-- Delivery Information -->
+            <h5>Delivery Information</h5>
+            <div class="row">
+              <div class="col">
+                <input type="text" placeholder="First name" id="deliveryFirstName" class="checkout-cart-input" />
+              </div>
+              <div class="col">
+                <input type="text" placeholder="Last name" id="deliveryLastName" class="checkout-cart-input" />
+              </div>
+            </div>
+            
+            <!-- Delivery Country as Dropdown -->
+            <select id="deliveryCountry" class="checkout-cart-input">
+              <option value="India">India</option>
+              <option value="USA">United States</option>
+              <option value="Canada">Canada</option>
+              <option value="UK">United Kingdom</option>
+              <!-- Add other countries as needed -->
+            </select>
+          
+            <input type="text" placeholder="Address" id="deliveryAddress" class="checkout-cart-input" />
+            <input type="text" placeholder="Apartment, suite, etc. (optional)" id="deliveryApartment" class="checkout-cart-input" />
+          
+            <div class="row">
+              <div class="col">
+                <input type="text" placeholder="City" id="deliveryCity" class="checkout-cart-input" />
+              </div>
+              <div class="col">
+                <input type="text" placeholder="State" id="deliveryState" class="checkout-cart-input" />
+              </div>
+              <div class="col">
+                <input type="text" placeholder="PIN code" id="deliveryPinCode" class="checkout-cart-input" />
+              </div>
+            </div>
+            <input type="text" placeholder="Phone (optional)" id="deliveryPhone" class="checkout-cart-input" />
+          </div>
+      
+          <!-- Alternative Payment Methods -->
+          <div class="form-check mt-3">
+            <input class="form-check-input" type="radio" name="paymentMethod" id="paymentShopPay" />
+            <label class="form-check-label" for="paymentShopPay">Shop Pay | Pay in full or in installments</label>
+          </div>
+          <div class="form-check mt-2">
+            <input class="form-check-input" type="radio" name="paymentMethod" id="paymentUPI" />
+            <label class="form-check-label" for="paymentUPI">UPI - India Delivery Only</label>
+          </div>
+          <!-- Pay Now Button -->
+          <button class="checkout-cart-btn-paynow bg_shade">Pay Now</button>
+          <p class="text-muted mt-2 text-center">Secure and encrypted</p>
+        </div>
+      </div>
+      
+      <!-- Right Section (Cart Summary) -->
+      <div class="checkout-cart-right">
+        <div class="checkout-cart-item">
+          <div class="checkout-cart-product-image">
+            <img src="image/addition-1.jpg" alt="Product Image" class="checkout-cart-product-img" />
+          </div>
+          <div class="checkout-cart-product-details">
+            <h6>Shubh Labh Ganesha Wall Hanging Diya Bell</h6>
+            <p>Brass Stonework Decor</p>
+            <p>₹10,700.00</p>
+          </div>
+        </div>
+    
+        <!-- Discount Code Section -->
+      <!-- Discount Code Section -->
+<div class="checkout-cart-input-discount">
+  <input type="text" placeholder="Discount code or gift card" id="discountCode" class="checkout-cart-input" />
+  <button class="cart-btn btn-secondary">Apply</button>
+</div>
+
+      
+    
+        <!-- Cart Summary -->
+        <div class="checkout-cart-total mt-4">
+          <div class="d-flex justify-content-between">
+            <p>Subtotal (1 item)</p>
+            <p>₹10,700.00</p>
+          </div>
+          <div class="d-flex justify-content-between">
+            <p>Shipping</p>
+            <p>Enter shipping address</p>
+          </div>
+          <div class="d-flex justify-content-between">
+            <p>Estimated taxes</p>
+            <p>₹1,284.03</p>
+          </div>
+          <hr />
+          <div class="d-flex justify-content-between">
+            <h5>Total</h5>
+            <h5>₹11,984.03</h5>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Footer -->
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="footer-background">
+        <div class="container">
+          <div class="row">
+            <!-- Follow Us Column -->
+            <div class="col-md-3 mb-4 mb-md-0">
+              <h5>Follow Us</h5>
+              <ul>
+                <li><a href="">New Arrivals</a></li>
+                <li><a href="">Kurta & Suit Sets</a></li>
+                <li><a href="">Lehenga Sets</a></li>
+                <li><a href="">Sarees</a></li>
+                <li><a href="">Bed Linens</a></li>
+                <li><a href="">Shoes</a></li>
+                <li><a href="">Sale</a></li>
+                <li><a href="">Relove</a></li>
+              </ul>
+            </div>
+
+            <!-- Contact Us Column -->
+            <div class="col-md-3 mb-4 mb-md-0">
+              <h5>Contact Us</h5>
+              <ul class="list-unstyled">
+                <li>
+                  <a href="mailto:contact@example.com"
+                    ><b>Crafts N Chisel LLC</b> - CNC Arts LLP</a
+                  >
+                </li>
+                <li>
+                  <a href="mailto:contact@example.com"
+                    ><b>Email</b>: contact@example.com</a
+                  >
+                </li>
+                <li>
+                  <a href="tel:+1234567890"
+                    ><b>Message us</b>: +1(408) 216-3825</a
+                  >
+                </li>
+                <li>
+                  <a href="https://wa.me/14082163825"
+                    ><b>Whatsapp link</b>: https://wa.me/14082163825</a
+                  >
+                </li>
+                <li>
+                  <a href="tel:+1234567890"><b>Phone</b>: +1 (234) 567-890</a>
+                </li>
+                <li>
+                  <a href="tel:+1234567890"
+                    ><b>Office Address</b>: 3901 Lick Mill Blvd, Santa Clara,
+                    CA, 95054</a
+                  >
+                </li>
+              </ul>
+            </div>
+
+            <!-- Company & Support Column -->
+            <div class="col-md-3 mb-4 mb-md-0">
+              <h5>Company & Support</h5>
+              <ul class="list-unstyled">
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Careers</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Terms of Service</a></li>
+              </ul>
+            </div>
+
+            <!-- Newsletter Column -->
+            <div class="col-md-3 mb-4 mb-md-0">
+              <h5>Follow Us</h5>
+              <div class="social-icons">
+                <a href="#" aria-label="Facebook"
+                  ><i class="bi bi-facebook"></i
+                ></a>
+                <a href="#" aria-label="Instagram"
+                  ><i class="bi bi-instagram"></i
+                ></a>
+                <a href="#" aria-label="Twitter"
+                  ><i class="bi bi-twitter"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="text-center mt-4">
+            <p>© 2024 Crafts N Chisel | Powered by Novel Solution Pvt</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Add background image after footer content -->
+      <div class="footer-image">
+        <img
+          src="image/footer-banner.jpg"
+          style="height: 530px; width: 100%"
+          alt="Footer Background"
+        />
+      </div>
+    </footer>
+    <!-- mobile footer -->
+    <!-- Footer -->
+    <footer class="mobile-footer d-lg-none">
+      <div class="container-fluid">
+        <ul class="navbar-nav mb-lg-0 d-flex flex-row justify-content-around">
+          <li class="nav-item">
+            <a class="nav-icon" href="index.html" id="homeFooterIcon">
+              <i class="bi bi-house"></i>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-icon" href="login.html" id="loginFooterIcon">
+              <i class="bi bi-person"></i>
+            </a>
+          </li>
+          <li class="nav-item">
+            <!-- Search icon -->
+            <a class="nav-icon search-trigger" href="#" id="openSearch">
+              <i class="bi bi-search"></i>
+            </a>
+          </li>
+          <div class="footer-cart-icon">
+            <a class="nav-icon" href="#" id="footerCartIcon">
+              <i class="bi bi-bag"></i>
+            </a>
+          </div>
+        </ul>
+      </div>
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+  const lazyImages = document.querySelectorAll('img.lazy');
+
+  // Function to load images when they come into view
+  const loadImage = (image) => {
+    const src = image.getAttribute('data-src');
+    if (src) {
+      image.src = src;  // Set the src to the data-src
+      image.classList.remove('lazy'); // Remove lazy class
+    }
+  };
+
+  // Set up the Intersection Observer to monitor when the images are in the viewport
+  const observer = new IntersectionObserver((entries, observer) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        loadImage(entry.target);
+        observer.unobserve(entry.target); // Stop observing once the image has been loaded
+      }
+    });
+  }, {
+    rootMargin: "0px 0px 200px 0px", // Load images just before they come into view
+    threshold: 0.01 // Trigger when at least 1% of the image is visible
+  });
+
+  // Start observing all lazy images
+  lazyImages.forEach(image => {
+    observer.observe(image);
+  });
+});
+
+// ######## 
+function toggleBillingAddress() {
+  var billingAddressSection = document.getElementById('billingAddressSection');
+  var checkbox = document.getElementById('billingAddressSameAsShipping');
+  
+  // Toggle visibility of the billing address section
+  if (checkbox.checked) {
+    billingAddressSection.style.display = 'block';
+  } else {
+    billingAddressSection.style.display = 'none';
+  }
+}
+
+    </script>
+  </body>
+</html>

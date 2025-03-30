@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CraftyChisel</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <!-- <link rel="stylesheet" href="login.css"> -->
+    <!-- <link rel="stylesheet" href="gallary.css"> -->
+  </head>
+  <body>
+    <!-- top-Banner -->
+    <!-- marquee -->
+    <div class="marquee-container">
+      <div class="marquee">
+        <span
+          >Get 10% off. Use code <strong>PREPAID</strong> to get 10% off. to get
+          10% off.to get 10% off. to get 10% off.
+        </span>
+        <span
+          >Get 10% off. Use code <strong>PREPAID</strong> to get 10% off.
+        </span>
+        <span
+          >Get 10% off. Use code <strong>PREPAID</strong> to get 10% off.
+        </span>
+      </div>
+    </div>
+
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light shadow-sm">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">
+          <img src="image/logo.jpg" alt="Logo" class="img-fluid" style="max-height: 50px" />
+        </a>
+    
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+    
+        <div class="collapse navbar-collapse" id="navbarText">
+          <button class="navbar-close d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText">
+            <span class="close-icon">&times;</span>
+          </button>
+    
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <!-- Home Dropdown -->
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+    
+            <!-- New Add-ins Dropdown -->
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="newAddinsDropdown" role="button" data-bs-toggle="dropdown">
+                New Add-ins
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Add-in 3</a>
+                  <a class="dropdown-item" href="#">Add-in 3</a>
+                  <a class="dropdown-item" href="#">Add-in 3</a>
+                  <a class="dropdown-item" href="#">Add-in 3</a>
+              </li>
+              <li><a class="dropdown-item" href="#">Add-in 3</a>
+                <a class="dropdown-item" href="#">Add-in 3</a>
+                <a class="dropdown-item" href="#">Add-in 3</a>
+                <a class="dropdown-item" href="#">Add-in 3</a>
+            </li>
+                <li><a class="dropdown-item" href="#">Add-in 3</a>
+                    <a class="dropdown-item" href="#">Add-in 3</a>
+                    <a class="dropdown-item" href="#">Add-in 3</a>
+                    <a class="dropdown-item" href="#">Add-in 3</a>
+                </li>
+                <li class="dropdown-item image-column">
+                  <img src="image/about-banner.jpg" alt="Add-in Image" />
+                </li>
+              </ul>
+            </li>
+    
+            <!-- Idols & Statues Dropdown -->
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="idolsDropdown" role="button" data-bs-toggle="dropdown">
+                Idols & Statues
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Add-in 3</a>
+                  <a class="dropdown-item" href="#">Add-in 3</a>
+                  <a class="dropdown-item" href="#">Add-in 3</a>
+                  <a class="dropdown-item" href="#">Add-in 3</a>
+              </li>
+              <li><a class="dropdown-item" href="#">Add-in 3</a>
+                <a class="dropdown-item" href="#">Add-in 3</a>
+                <a class="dropdown-item" href="#">Add-in 3</a>
+                <a class="dropdown-item" href="#">Add-in 3</a>
+            </li>
+                <li><a class="dropdown-item" href="#">Add-in 3</a>
+                    <a class="dropdown-item" href="#">Add-in 3</a>
+                    <a class="dropdown-item" href="#">Add-in 3</a>
+                    <a class="dropdown-item" href="#">Add-in 3</a>
+                </li>
+                <li class="dropdown-item image-column">
+                  <img src="image/sub_Item-1.jpg" alt="Add-in Image" />
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown" id="statuesMenu">
+              <a class="nav-link dropdown-toggle" href="#" id="statuesDropdownToggle" role="button" data-bs-toggle="dropdown">
+                Statues
+              </a>
+              <ul class="dropdown-menu" id="statuesDropdownMenu">
+                <li><a class="dropdown-item" href="#">Statue 1</a></li>
+                <li><a class="dropdown-item" href="#">Statue 2</a></li>
+                <li class="dropdown-submenu" id="statue3Submenu">
+                  <a class="dropdown-item dropdown-toggle" href="#">Statue 3</a>
+                  <ul class="submenu dropdown-menu" id="statue3DropdownMenu">
+                    <li><a class="dropdown-item" href="#">Sub-item 1</a></li>
+                    <li><a class="dropdown-item" href="#">Sub-item 2</a></li>
+                    <li><a class="dropdown-item" href="#">Sub-item 3</a></li>
+                  </ul>
+                </li>
+                <li><a class="dropdown-item" href="#">Statue 4</a></li>
+              </ul>
+            </li>
+            </ul>
+            </li>
+          </ul>
+    
+          <!-- Right-aligned icons -->
+          <div class="d-flex align-items-center ms-auto">
+            <ul class="navbar-nav mb-2 mb-lg-0 d-flex flex-row">
+              <li class="nav-item">
+                <a class="nav-icon" href="login.html"><i class="bi bi-person"></i></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-icon search-trigger" href="#"><i class="bi bi-search"></i></a>
+              </li>
+              <li class="nav-item position-relative">
+                <a class="nav-icon" href="#" id="cartIcon"><i class="bi bi-bag"></i></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+    
+    <!-- Search Modal -->
+<div class="modal" id="searchModal">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content" style="height: 100%;">
+      <div class="modal-body">
+        <input type="text" class="form-control" placeholder="Search..." id="searchInput" />
+        <button type="button" class="btn-close" id="closeModal"></button>
+        <button type="button" class="btn btn-primary" id="searchButton">Search</button>
+      </div>
+      <!-- Container for displaying search results -->
+      <div id="searchResults" class="search-results-container"></div>
+    </div>
+  </div>
+</div>
+<!-- Sidebar -->
+<div class="sidebar" id="sidebar">
+  <span class="close-btn" id="closeSidebar">&times;</span>
+  <div class="content">
+    <h1 class="text">Your Cart</h1>
+
+    <!-- Product Item -->
+    <div class="Add-Cart">
+      <div class="product-img">
+        <img src="image/category-3.jpg" alt="Product Image" />
+      </div>
+      <div class="product-details">
+        <h6>Lavender Pintucks Straight Suit Set</h6>
+        <p>Rs. 8,500.00</p>
+        <p>Size: XS</p>
+        <div class="counter_section">
+       
+        <span class="delete-icon">&#128465;</span> <!-- Delete icon on the right -->
+      </div>
+      </div>
+    </div>
+
+    <!-- Coupon Section -->
+    <div class="coupon-section">
+      <p><strong>Flat 20% OFF</strong></p>
+      <p>Use Coupon Code: <span class="coupon-code">DIWALI20</span></p>
+    </div>
+
+    <!-- Bottom Section -->
+    <div class="sidebar-bottom">
+      
+      <p>Order special instructions</p>
+      <div class="check-out-price">
+        <strong>Estimated total</strong>
+        <span>Rs. 8,500.00</span>
+      </div>
+      <p>Tax included and shipping & discounts calculated at checkout</p>
+      <a href="Cart.html">
+        <button type="button"  class="btn-checkout bg_shade">Check out</button>
+      </a>
+     
+      
+    </div>
+  </div>
+</div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <div class="Detail-image-container">
+            <img
+              src="image/Banner.png"
+              alt="Product Image"
+              class="Detail-full-image"
+            />
+          </div>
+        </div>
+      </div>
+      <div class="row mt-4">
+        <div class="col-12">
+          <div class="detail-content">
+            <h2>Product Description</h2>
+            <p>
+              This is a brief description of the product. It highlights the key
+              features and benefits of the item, providing the necessary
+              information for potential buyers.
+            </p>
+            <p>
+              This is a brief description of the product. It highlights the key
+              features and benefits of the item, providing the necessary
+              information for potential buyers. Lorem ipsum dolor sit amet
+              consectetur adipisicing elit. Iure cumque magni similique ea
+              asperiores cupiditate quas modi sequi quaerat. Debitis beatae sint
+              consequatur accusamus distinctio, doloremque optio animi non
+              impedit, maxime iusto ea veritatis soluta? Numquam placeat omnis
+              magnam, doloribus libero quas repellendus repudiandae quis
+              consectetur perspiciatis accusantium at, rem atque nam nihil.
+              Error fuga quas minus, quasi quam ullam nulla ea maxime deleniti
+              laudantium dolore a lias cupiditate officia iure cumque, accusamus
+              porro rem, fugiat eum ste! Sequi ipsum molestias cum. Illo rerum
+              facere temporibus, aliquam hic sapiente excepturi adipisci aliquid
+              non eligendi exercitationem optio dolorem reprehenderit, maiores
+              suscipit nemo?
+            </p>
+
+            <ul class="description-list">
+              <li>Feature 1: High quality and durability</li>
+              <li>Feature 2: Sleek and modern design</li>
+              <li>Feature 3: Available in multiple colors</li>
+              <li>Feature 4: Excellent customer reviews</li>
+            </ul>
+
+            <p>
+                This is a brief description of the product. It highlights the key
+                features and benefits of the item, providing the necessary
+                information for potential buyers. Lorem ipsum dolor sit amet
+                consectetur adipisicing elit. Iure cumque magni similique ea
+                asperiores cupiditate quas modi sequi quaerat. Debitis beatae sint
+                consequatur accusamus distinctio, doloremque optio animi non
+                impedit, maxime iusto ea veritatis soluta? Numquam placeat omnis
+                magnam, doloribus libero quas repellendus repudiandae quis
+                consectetur perspiciatis accusantium at, rem atque nam nihil.
+                Error fuga quas minus, quasi quam ullam nulla ea maxime deleniti
+                laudantium dolore a lias cupiditate officia iure cumque, accusamus
+                porro rem, fugiat eum ste! Sequi ipsum molestias cum. Illo rerum
+                facere temporibus, aliquam hic sapiente excepturi adipisci aliquid
+                non eligendi exercitationem optio dolorem reprehenderit, maiores
+                suscipit nemo?
+              </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="footer-background">
+        <div class="container">
+          <div class="row">
+            <!-- Follow Us Column -->
+            <div class="col-md-3 mb-4 mb-md-0">
+              <h5>Follow Us</h5>
+              <ul>
+                <li><a href="">New Arrivals</a></li>
+                <li><a href="">Kurta & Suit Sets</a></li>
+                <li><a href="">Lehenga Sets</a></li>
+                <li><a href="">Sarees</a></li>
+                <li><a href="">Bed Linens</a></li>
+                <li><a href="">Shoes</a></li>
+                <li><a href="">Sale</a></li>
+                <li><a href="">Relove</a></li>
+              </ul>
+            </div>
+
+            <!-- Contact Us Column -->
+            <div class="col-md-3 mb-4 mb-md-0">
+              <h5>Contact Us</h5>
+              <ul class="list-unstyled">
+                <li>
+                  <a href="mailto:contact@example.com"
+                    ><b>Crafts N Chisel LLC</b> - CNC Arts LLP</a
+                  >
+                </li>
+                <li>
+                  <a href="mailto:contact@example.com"
+                    ><b>Email</b>: contact@example.com</a
+                  >
+                </li>
+                <li>
+                  <a href="tel:+1234567890"
+                    ><b>Message us</b>: +1(408) 216-3825</a
+                  >
+                </li>
+                <li>
+                  <a href="https://wa.me/14082163825"
+                    ><b>Whatsapp link</b>: https://wa.me/14082163825</a
+                  >
+                </li>
+                <li>
+                  <a href="tel:+1234567890"><b>Phone</b>: +1 (234) 567-890</a>
+                </li>
+                <li>
+                  <a href="tel:+1234567890"
+                    ><b>Office Address</b>: 3901 Lick Mill Blvd, Santa Clara,
+                    CA, 95054</a
+                  >
+                </li>
+              </ul>
+            </div>
+
+            <!-- Company & Support Column -->
+            <div class="col-md-3 mb-4 mb-md-0">
+              <h5>Company & Support</h5>
+              <ul class="list-unstyled">
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Careers</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Terms of Service</a></li>
+              </ul>
+            </div>
+
+            <!-- Newsletter Column -->
+            <div class="col-md-3 mb-4 mb-md-0">
+              <h5>Follow Us</h5>
+              <div class="social-icons">
+                <a href="#" aria-label="Facebook"
+                  ><i class="bi bi-facebook"></i
+                ></a>
+                <a href="#" aria-label="Instagram"
+                  ><i class="bi bi-instagram"></i
+                ></a>
+                <a href="#" aria-label="Twitter"
+                  ><i class="bi bi-twitter"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="text-center mt-4">
+            <p>© 2024 Crafts N Chisel | Powered by Novel Solution Pvt</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Add background image after footer content -->
+      <div class="footer-image">
+        <img
+          src="image/footer-banner.jpg"
+          style="height: 530px; width: 100%"
+          alt="Footer Background"
+        />
+      </div>
+    </footer>
+    <!-- mobile footer -->
+    <!-- mobile footer -->
+    <!-- Footer -->
+    <footer class="mobile-footer d-lg-none">
+      <div class="container-fluid">
+        <ul class="navbar-nav mb-lg-0 d-flex flex-row justify-content-around">
+          <li class="nav-item">
+            <a class="nav-icon" href="index.html" id="homeFooterIcon">
+              <i class="bi bi-house"></i>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-icon" href="login.html" id="loginFooterIcon">
+              <i class="bi bi-person"></i>
+            </a>
+          </li>
+          <li class="nav-item">
+            <!-- Search icon -->
+            <a class="nav-icon search-trigger" href="#" id="openSearch">
+              <i class="bi bi-search"></i>
+            </a>
+          </li>
+          <div class="footer-cart-icon">
+            <a class="nav-icon" href="#" id="footerCartIcon">
+              <i class="bi bi-bag"></i>
+            </a>
+          </div>
+        </ul>
+      </div>
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>

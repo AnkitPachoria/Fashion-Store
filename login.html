@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CraftyChisel</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <!-- <link rel="stylesheet" href="login.css"> -->
+  </head>
+  <body>
+    <!-- top-Banner -->
+    <!-- marquee -->
+    <div class="marquee-container bg_shade">
+      <div class="marquee">
+        <span
+          >Get 10% off. Use code <strong>PREPAID</strong> to get 10% off. to get
+          10% off.to get 10% off. to get 10% off.
+        </span>
+        <span
+          >Get 10% off. Use code <strong>PREPAID</strong> to get 10% off.
+        </span>
+        <span
+          >Get 10% off. Use code <strong>PREPAID</strong> to get 10% off.
+        </span>
+      </div>
+    </div>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light shadow-sm">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">
+          <img src="image/logo.jpg" alt="Logo" class="img-fluid" style="max-height: 50px" />
+        </a>
+    
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+    
+        <div class="collapse navbar-collapse" id="navbarText">
+          <button class="navbar-close d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText">
+            <span class="close-icon">&times;</span>
+          </button>
+    
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <!-- Home Dropdown -->
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+    
+            <!-- New Add-ins Dropdown -->
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="newAddinsDropdown" role="button" data-bs-toggle="dropdown">
+                New Add-ins
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Add-in 3</a>
+                  <a class="dropdown-item" href="#">Add-in 3</a>
+                  <a class="dropdown-item" href="#">Add-in 3</a>
+                  <a class="dropdown-item" href="#">Add-in 3</a>
+              </li>
+              <li><a class="dropdown-item" href="#">Add-in 3</a>
+                <a class="dropdown-item" href="#">Add-in 3</a>
+                <a class="dropdown-item" href="#">Add-in 3</a>
+                <a class="dropdown-item" href="#">Add-in 3</a>
+            </li>
+                <li><a class="dropdown-item" href="#">Add-in 3</a>
+                    <a class="dropdown-item" href="#">Add-in 3</a>
+                    <a class="dropdown-item" href="#">Add-in 3</a>
+                    <a class="dropdown-item" href="#">Add-in 3</a>
+                </li>
+                <li class="dropdown-item image-column">
+                  <img src="image/about-banner.jpg" alt="Add-in Image" />
+                </li>
+              </ul>
+            </li>
+    
+            <!-- Idols & Statues Dropdown -->
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="idolsDropdown" role="button" data-bs-toggle="dropdown">
+                Idols & Statues
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Add-in 3</a>
+                  <a class="dropdown-item" href="#">Add-in 3</a>
+                  <a class="dropdown-item" href="#">Add-in 3</a>
+                  <a class="dropdown-item" href="#">Add-in 3</a>
+              </li>
+              <li><a class="dropdown-item" href="#">Add-in 3</a>
+                <a class="dropdown-item" href="#">Add-in 3</a>
+                <a class="dropdown-item" href="#">Add-in 3</a>
+                <a class="dropdown-item" href="#">Add-in 3</a>
+            </li>
+                <li><a class="dropdown-item" href="#">Add-in 3</a>
+                    <a class="dropdown-item" href="#">Add-in 3</a>
+                    <a class="dropdown-item" href="#">Add-in 3</a>
+                    <a class="dropdown-item" href="#">Add-in 3</a>
+                </li>
+                <li class="dropdown-item image-column">
+                  <img src="image/sub_Item-1.jpg" alt="Add-in Image" />
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown" id="statuesMenu">
+              <a class="nav-link dropdown-toggle" href="#" id="statuesDropdownToggle" role="button" data-bs-toggle="dropdown">
+                Statues
+              </a>
+              <ul class="dropdown-menu" id="statuesDropdownMenu">
+                <li><a class="dropdown-item" href="#">Statue 1</a></li>
+                <li><a class="dropdown-item" href="#">Statue 2</a></li>
+                <li class="dropdown-submenu" id="statue3Submenu">
+                  <a class="dropdown-item dropdown-toggle" href="#">Statue 3</a>
+                  <ul class="submenu dropdown-menu" id="statue3DropdownMenu">
+                    <li><a class="dropdown-item" href="#">Sub-item 1</a></li>
+                    <li><a class="dropdown-item" href="#">Sub-item 2</a></li>
+                    <li><a class="dropdown-item" href="#">Sub-item 3</a></li>
+                  </ul>
+                </li>
+                <li><a class="dropdown-item" href="#">Statue 4</a></li>
+              </ul>
+            </li>
+            </ul>
+            </li>
+          </ul>
+    
+          <!-- Right-aligned icons -->
+          <div class="d-flex align-items-center ms-auto">
+            <ul class="navbar-nav mb-2 mb-lg-0 d-flex flex-row">
+              <li class="nav-item">
+                <a class="nav-icon" href="login.html"><i class="bi bi-person"></i></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-icon search-trigger" href="#"><i class="bi bi-search"></i></a>
+              </li>
+              <li class="nav-item position-relative">
+                <a class="nav-icon" href="#" id="cartIcon"><i class="bi bi-bag"></i></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+    
+   <!-- Search Modal -->
+<div class="modal" id="searchModal">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content" style="height: 100%;">
+      <div class="modal-body">
+        <input type="text" class="form-control" placeholder="Search..." id="searchInput" />
+        <button type="button" class="btn-close" id="closeModal"></button>
+        <button type="button" class="btn btn-primary" id="searchButton">Search</button>
+      </div>
+      <!-- Container for displaying search results -->
+      <div id="searchResults" class="search-results-container"></div>
+    </div>
+  </div>
+</div>  
+<div class="sidebar" id="sidebar">
+  <span class="close-btn" id="closeSidebar">&times;</span>
+  <div class="content">
+    <h1 class="text">Your Cart</h1>
+
+    <!-- Product Item -->
+    <div class="Add-Cart">
+      <div class="product-img">
+        <img src="image/category-3.jpg" alt="Product Image" />
+      </div>
+      <div class="product-details">
+        <h6>Lavender Pintucks Straight Suit Set</h6>
+        <p>Rs. 8,500.00</p>
+        <p>Size: XS</p>
+        <div class="counter_section">
+       
+        <span class="delete-icon">&#128465;</span> <!-- Delete icon on the right -->
+      </div>
+      </div>
+    </div>
+
+    <!-- Coupon Section -->
+    <div class="coupon-section">
+      <p><strong>Flat 20% OFF</strong></p>
+      <p>Use Coupon Code: <span class="coupon-code">DIWALI20</span></p>
+    </div>
+
+    <!-- Bottom Section -->
+    <div class="sidebar-bottom">
+      
+      <p>Order special instructions</p>
+      <div class="check-out-price">
+        <strong>Estimated total</strong>
+        <span>Rs. 8,500.00</span>
+      </div>
+      <p>Tax included and shipping & discounts calculated at checkout</p>
+      <a href="Cart.html">
+        <button type="button"  class="btn-checkout bg_shade">Check out</button>
+      </a>
+     
+      
+    </div>
+  </div>
+</div>
+    <!-- Login -->
+
+    <div class="auth-container">
+      <div class="auth-row">
+        <div class="auth-column">
+          <div class="auth-card">
+            <!-- Login Form -->
+            <div class="auth-form auth-login">
+              <h2 class="text-center mb-4">Welcome Back</h2>
+              <p class="text-center mb-3">Enter your credentials to login:</p>
+              <form>
+                <div class="auth-group">
+                  <label for="loginEmail" class="auth-label">Email</label>
+                  <input
+                    type="email"
+                    class="auth-input"
+                    id="loginEmail"
+                    placeholder="Enter email"
+                    required
+                  />
+                </div>
+                <div class="auth-group">
+                  <label for="loginPassword" class="auth-label">Password</label>
+                  <input
+                    type="password"
+                    class="auth-input"
+                    id="loginPassword"
+                    placeholder="Enter password"
+                    required
+                  />
+                </div>
+                <div class="auth-footer">
+                  <a href="#" class="forgot-password-link">Forgot password?</a>
+                </div>
+                <button type="submit" class="auth-btn auth-btn-primary">Login</button>
+                <p class="text-center mt-3">
+                  Don't have an account?
+                  <a href="#" class="auth-toggle-form" id="showRegisterForm">Sign up</a>
+                </p>
+              </form>
+            </div>
+     
+            <!-- Registration Form -->
+            <div class="auth-form auth-register d-none">
+              <h2 class="text-center mb-4">Create an Account</h2>
+              <p class="text-center mb-3">Fill in the details to get started:</p>
+              <form>
+                <div class="auth-group">
+                  <label for="registerEmail" class="auth-label">Email</label>
+                  <input
+                    type="email"
+                    class="auth-input"
+                    id="registerEmail"
+                    placeholder="Enter email"
+                    required
+                  />
+                </div>
+                <div class="auth-group">
+                  <label for="registerPassword" class="auth-label">Password</label>
+                  <input
+                    type="password"
+                    class="auth-input"
+                    id="registerPassword"
+                    placeholder="Create a password"
+                    required
+                  />
+                </div>
+                <div class="auth-group">
+                  <label for="confirmPassword" class="auth-label">Confirm Password</label>
+                  <input
+                    type="password"
+                    class="auth-input"
+                    id="confirmPassword"
+                    placeholder="Confirm your password"
+                    required
+                  />
+                </div>
+    
+                <button type="submit" class="auth-btn auth-btn-secondary">Create My Account</button>
+                <p class="text-center mt-3">
+                  Already have an account?
+                  <a href="#" class="auth-toggle-form" id="showLoginForm">Login</a>
+                </p>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="footer-background">
+        <div class="container">
+          <div class="row">
+            <!-- Follow Us Column -->
+            <div class="col-md-3 mb-4 mb-md-0">
+              <h5>Follow Us</h5>
+              <ul>
+                <li><a href="">New Arrivals</a></li>
+                <li><a href="">Kurta & Suit Sets</a></li>
+                <li><a href="">Lehenga Sets</a></li>
+                <li><a href="">Sarees</a></li>
+                <li><a href="">Bed Linens</a></li>
+                <li><a href="">Shoes</a></li>
+                <li><a href="">Sale</a></li>
+                <li><a href="">Relove</a></li>
+              </ul>
+            </div>
+
+            <!-- Contact Us Column -->
+            <div class="col-md-3 mb-4 mb-md-0">
+              <h5>Contact Us</h5>
+              <ul class="list-unstyled">
+                <li>
+                  <a href="mailto:contact@example.com"
+                    ><b>Crafts N Chisel LLC</b> - CNC Arts LLP</a
+                  >
+                </li>
+                <li>
+                  <a href="mailto:contact@example.com"
+                    ><b>Email</b>: contact@example.com</a
+                  >
+                </li>
+                <li>
+                  <a href="tel:+1234567890"
+                    ><b>Message us</b>: +1(408) 216-3825</a
+                  >
+                </li>
+                <li>
+                  <a href="https://wa.me/14082163825"
+                    ><b>Whatsapp link</b>: https://wa.me/14082163825</a
+                  >
+                </li>
+                <li>
+                  <a href="tel:+1234567890"><b>Phone</b>: +1 (234) 567-890</a>
+                </li>
+                <li>
+                  <a href="tel:+1234567890"
+                    ><b>Office Address</b>: 3901 Lick Mill Blvd, Santa Clara,
+                    CA, 95054</a
+                  >
+                </li>
+              </ul>
+            </div>
+
+            <!-- Company & Support Column -->
+            <div class="col-md-3 mb-4 mb-md-0">
+              <h5>Company & Support</h5>
+              <ul class="list-unstyled">
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Careers</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Terms of Service</a></li>
+              </ul>
+            </div>
+
+            <!-- Newsletter Column -->
+            <div class="col-md-3 mb-4 mb-md-0">
+              <h5>Follow Us</h5>
+              <div class="social-icons">
+                <a href="#" aria-label="Facebook"
+                  ><i class="bi bi-facebook"></i
+                ></a>
+                <a href="#" aria-label="Instagram"
+                  ><i class="bi bi-instagram"></i
+                ></a>
+                <a href="#" aria-label="Twitter"
+                  ><i class="bi bi-twitter"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="text-center mt-4">
+            <p>© 2024 Crafts N Chisel | Powered by Novel Solution Pvt</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Add background image after footer content -->
+      <div class="footer-image">
+        <img
+          src="image/footer-banner.jpg"
+          style="height: 530px; width: 100%"
+          alt="Footer Background"
+        />
+      </div>
+    </footer>
+    <!-- mobile footer -->
+    <!-- Footer -->
+    <footer class="mobile-footer d-lg-none">
+      <div class="container-fluid">
+        <ul class="navbar-nav mb-lg-0 d-flex flex-row justify-content-around">
+          <li class="nav-item">
+            <a class="nav-icon" href="index.html" id="homeFooterIcon">
+              <i class="bi bi-house"></i>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-icon" href="login.html" id="loginFooterIcon">
+              <i class="bi bi-person"></i>
+            </a>
+          </li>
+          <li class="nav-item">
+            <!-- Search icon -->
+            <a class="nav-icon search-trigger" href="#" id="openSearch">
+              <i class="bi bi-search"></i>
+            </a>
+          </li>
+          <div class="footer-cart-icon">
+            <a class="nav-icon" href="#" id="footerCartIcon">
+              <i class="bi bi-bag"></i>
+            </a>
+          </div>
+        </ul>
+      </div>
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+
+    <script>
+   document.addEventListener("DOMContentLoaded", function () {
+  // Get the elements for toggling the forms
+  const showRegisterFormLink = document.getElementById("showRegisterForm");
+  const showLoginFormLink = document.getElementById("showLoginForm");
+  const loginForm = document.querySelector(".auth-login");
+  const registerForm = document.querySelector(".auth-register");
+
+  // Function to switch between forms with smooth transition
+  function showForm(formToShow, formToHide) {
+    formToHide.classList.add("auth-hide"); // Apply the hide transition
+    setTimeout(() => {
+      formToHide.classList.add("d-none"); // Hide the form after the transition
+      formToShow.classList.remove("d-none"); // Show the new form
+      formToShow.classList.remove("auth-hide"); // Remove the hide transition
+    }, 300); // Matches the transition duration
+  }
+
+  // Show the registration form when the 'Create Account' link is clicked
+  showRegisterFormLink.addEventListener("click", function (event) {
+    event.preventDefault();
+    showForm(registerForm, loginForm);
+  });
+
+  // Show the login form when the 'Login' link is clicked
+  showLoginFormLink.addEventListener("click", function (event) {
+    event.preventDefault();
+    showForm(loginForm, registerForm);
+  });
+});
+
+    </script>
+  </body>
+</html>

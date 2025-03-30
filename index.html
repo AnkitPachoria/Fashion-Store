@@ -1,0 +1,1374 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CraftyChisel</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css"
+    />
+      <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+        <!-- marquee -->
+        <div class="marquee-container bg_shade">
+          <div class="marquee">
+            <span
+              >Get 10% off. Use code <strong>PREPAID</strong> to get 10% off. to get
+              10% off.to get 10% off. to get 10% off.
+            </span>
+            <span
+              >Get 10% off. Use code <strong>PREPAID</strong> to get 10% off.
+            </span>
+            <span
+              >Get 10% off. Use code <strong>PREPAID</strong> to get 10% off.
+            </span>
+          </div>
+        </div>
+    
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light shadow-sm">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">
+          <img src="image/logo.jpg" alt="Logo" class="img-fluid" style="max-height: 50px" />
+        </a>
+    
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+    
+        <div class="collapse navbar-collapse" id="navbarText">
+          <button class="navbar-close d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText">
+            <span class="close-icon">&times;</span>
+          </button>
+    
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <!-- Home Dropdown -->
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+    
+            <!-- New Add-ins Dropdown -->
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="newAddinsDropdown" role="button" data-bs-toggle="dropdown">
+                New Add-ins
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Add-in 3</a>
+                  <a class="dropdown-item" href="#">Add-in 3</a>
+                  <a class="dropdown-item" href="#">Add-in 3</a>
+                  <a class="dropdown-item" href="#">Add-in 3</a>
+              </li>
+              <li><a class="dropdown-item" href="#">Add-in 3</a>
+                <a class="dropdown-item" href="#">Add-in 3</a>
+                <a class="dropdown-item" href="#">Add-in 3</a>
+                <a class="dropdown-item" href="#">Add-in 3</a>
+            </li>
+                <li><a class="dropdown-item" href="#">Add-in 3</a>
+                    <a class="dropdown-item" href="#">Add-in 3</a>
+                    <a class="dropdown-item" href="#">Add-in 3</a>
+                    <a class="dropdown-item" href="#">Add-in 3</a>
+                </li>
+                <li class="dropdown-item image-column">
+                  <img src="image/about-banner.jpg" alt="Add-in Image" />
+                </li>
+              </ul>
+            </li>
+    
+            <!-- Idols & Statues Dropdown -->
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="idolsDropdown" role="button" data-bs-toggle="dropdown">
+                Idols & Statues
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Add-in 3</a>
+                  <a class="dropdown-item" href="#">Add-in 3</a>
+                  <a class="dropdown-item" href="#">Add-in 3</a>
+                  <a class="dropdown-item" href="#">Add-in 3</a>
+              </li>
+              <li><a class="dropdown-item" href="#">Add-in 3</a>
+                <a class="dropdown-item" href="#">Add-in 3</a>
+                <a class="dropdown-item" href="#">Add-in 3</a>
+                <a class="dropdown-item" href="#">Add-in 3</a>
+            </li>
+                <li><a class="dropdown-item" href="#">Add-in 3</a>
+                    <a class="dropdown-item" href="#">Add-in 3</a>
+                    <a class="dropdown-item" href="#">Add-in 3</a>
+                    <a class="dropdown-item" href="#">Add-in 3</a>
+                </li>
+                <li class="dropdown-item image-column">
+                  <img src="image/sub_Item-1.jpg" alt="Add-in Image" />
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown" id="statuesMenu">
+              <a class="nav-link dropdown-toggle" href="#" id="statuesDropdownToggle" role="button" data-bs-toggle="dropdown">
+                Statues
+              </a>
+              <ul class="dropdown-menu" id="statuesDropdownMenu">
+                <li><a class="dropdown-item" href="#">Statue 1</a></li>
+                <li><a class="dropdown-item" href="#">Statue 2</a></li>
+                <li class="dropdown-submenu" id="statue3Submenu">
+                  <a class="dropdown-item dropdown-toggle" href="#">Statue 3</a>
+                  <ul class="submenu dropdown-menu" id="statue3DropdownMenu">
+                    <li><a class="dropdown-item" href="#">Sub-item 1</a></li>
+                    <li><a class="dropdown-item" href="#">Sub-item 2</a></li>
+                    <li><a class="dropdown-item" href="#">Sub-item 3</a></li>
+                  </ul>
+                </li>
+                <li><a class="dropdown-item" href="#">Statue 4</a></li>
+              </ul>
+            </li>
+            </ul>
+            </li>
+          </ul>
+    
+          <!-- Right-aligned icons -->
+          <div class="d-flex align-items-center ms-auto">
+            <ul class="navbar-nav mb-2 mb-lg-0 d-flex flex-row">
+              <li class="nav-item">
+                <a class="nav-icon" href="login.html"><i class="bi bi-person"></i></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-icon search-trigger" href="#"><i class="bi bi-search"></i></a>
+              </li>
+              <li class="nav-item position-relative">
+                <a class="nav-icon" href="#" id="cartIcon"><i class="bi bi-bag"></i></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+    
+
+  <!-- Search Modal -->
+<div class="modal" id="searchModal">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content" style="height: 100%;">
+      <div class="modal-body">
+        <input type="text" class="form-control" placeholder="Search..." id="searchInput" />
+        <button type="button" class="btn-close" id="closeModal"></button>
+        <button type="button" class="btn btn-primary" id="searchButton">Search</button>
+      </div>
+      <!-- Container for displaying search results -->
+      <div id="searchResults" class="search-results-container"></div>
+    </div>
+  </div>
+</div>
+
+    <!-- Sidebar -->
+    <div class="sidebar" id="sidebar">
+      <span class="close-btn" id="closeSidebar">&times;</span>
+      <div class="content">
+        <h1 class="text">Your Cart</h1>
+    
+        <!-- Product Item -->
+        <div class="Add-Cart">
+          <div class="product-img">
+            <img src="image/category-3.jpg" alt="Product Image" />
+          </div>
+          <div class="product-details">
+            <h6>Lavender Pintucks Straight Suit Set</h6>
+            <p>Rs. 8,500.00</p>
+            <p>Size: XS</p>
+            <div class="counter_section">
+           
+            <span class="delete-icon">&#128465;</span> <!-- Delete icon on the right -->
+          </div>
+          </div>
+        </div>
+    
+        <!-- Coupon Section -->
+        <div class="coupon-section">
+          <p><strong>Flat 20% OFF</strong></p>
+          <p>Use Coupon Code: <span class="coupon-code">DIWALI20</span></p>
+        </div>
+    
+        <!-- Bottom Section -->
+        <div class="sidebar-bottom">
+          
+          <p>Order special instructions</p>
+          <div class="check-out-price">
+            <strong>Estimated total</strong>
+            <span>Rs. 8,500.00</span>
+          </div>
+          <p>Tax included and shipping & discounts calculated at checkout</p>
+          <a href="Cart.html">
+            <button type="button"  class="btn-checkout bg_shade">Check out</button>
+          </a>
+         
+          
+        </div>
+      </div>
+    </div>
+    <!-- Carousel -->
+    <div class="carousel-container">
+      <div
+        id="carouselExampleCaptions"
+        class="carousel slide"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              style="height: 100%"
+              src="image/cloth-banner-1.jpg"
+              data-src="image/addition-1.jpg"
+              class="d-block w-100 carousel-img"
+              alt="..."
+            />
+            <div class="hero-content">
+              <!-- <h1 class="hero-title">DIYA & LAMP</h1> -->
+              <!-- <a href="collection.html" class="hero-button">EXPLORE HERE</a> -->
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              style="height: 100%"
+              src="image/cloth-banner-2.jpg"
+              data-src="image/addition-1.jpg"
+              class="d-block w-100 carousel-img"
+              alt="..."
+            />
+            <div class="hero-content">
+              <!-- <h1 class="hero-title">DIYA & LAMP</h1> -->
+              <!-- <a href="collection.html" class="hero-button">EXPLORE HERE</a> -->
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              style="height: 100%"
+              src="image/cloth-banner-1.jpg"
+              data-src="image/addition-1.jpg"
+              class="d-block w-100 carousel-img"
+              alt="..."
+            />
+            <div class="hero-content">
+              <!-- <h1 class="hero-title">DIYA & LAMP</h1> -->
+              <!-- <a href="collection.html" class="hero-button">EXPLORE HERE</a> -->
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+
+    <!-- Mobile Carousel -->
+    <div
+      id="mobileCarousel"
+      class="carousel slide d-block d-lg-none"
+      data-bs-ride="carousel"
+    >
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#mobileCarousel"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#mobileCarousel"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#mobileCarousel"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"
+        ></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img
+            style="height: 470px"
+            src="image/category-3.jpg"
+            class="d-block w-100 carousel-img"
+            alt="..."
+          />
+          <div class="hero-content">
+            <!-- <h1 class="hero-title">DIYA & LAMP</h1>
+            <a href="collection.html" class="hero-button">EXPLORE HERE</a> -->
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img
+            style="height: 470px"
+            src="image/category-1.jpg"
+            class="d-block w-100 carousel-img"
+            alt="..."
+          />
+          <div class="hero-content">
+            <!-- <h1 class="hero-title">DIYA & LAMP</h1>
+            <a href="collection.html" class="hero-button">EXPLORE HERE</a> -->
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img
+            style="height: 470px"
+            src="image/category-2.jpg"
+            class="d-block w-100 carousel-img"
+            alt="..."
+          />
+          <div class="hero-content">
+            <!-- <h1 class="hero-title">DIYA & LAMP</h1>
+            <a href="collection.html" class="hero-button">EXPLORE HERE</a> -->
+          </div>
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#mobileCarousel"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#mobileCarousel"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <!-- top-Banner -->
+    <div class="top-banner bg_shade">
+      ENJOY 10% OFF AND FREE SHIPPING ON $149 ABOVE PURCHASE! NO CODE NEEDED!
+      DISCOUNT WILL APPLY AT CHECKOUT!
+    </div>
+ 
+<!-- Top Categories -->
+<div class="container-fluid mt-5">
+  <h2>Top Categories</h2>
+  <div class="stat-display">
+      <div class="stat-display-slide col-2">
+          <a href="https://craft.pawtea.com/category/wall-decor" class="image-link">
+              <img src="image/category-1.jpg" alt="Wall Decor" class="category-image" />
+          </a>
+          <div class="product-info">
+              <h5><a href="https://craft.pawtea.com/category/wall-decor" style="text-decoration:none; color:black">Wall Decor</a></h5>
+          </div>
+      </div>
+      <div class="stat-display-slide col-2">
+          <a href="https://craft.pawtea.com/category/textile-arts" class="image-link">
+              <img src="image/category-2.jpg" alt="Textile Arts" class="category-image" />
+          </a>
+          <div class="product-info">
+              <h5><a href="https://craft.pawtea.com/category/textile-arts" style="text-decoration:none; color:black">Textile Arts</a></h5>
+          </div>
+      </div>
+      <div class="stat-display-slide col-2">
+          <a href="https://craft.pawtea.com/category/woodcraft" class="image-link">
+              <img src="image/category-3.jpg" alt="Woodcraft" class="category-image" />
+          </a>
+          <div class="product-info">
+              <h5><a href="https://craft.pawtea.com/category/woodcraft" style="text-decoration:none; color:black">Woodcraft</a></h5>
+          </div>
+      </div>
+      <div class="stat-display-slide col-2">
+          <a href="https://craft.pawtea.com/category/woodcraft" class="image-link">
+              <img src="image/category-4.jpg" alt="Woodcraft" class="category-image" />
+          </a>
+          <div class="product-info">
+              <h5><a href="https://craft.pawtea.com/category/woodcraft" style="text-decoration:none; color:black">Woodcraft</a></h5>
+          </div>
+      </div>
+      <div class="stat-display-slide col-2">
+          <a href="https://craft.pawtea.com/category/woodcraft" class="image-link">
+              <img src="image/category-1.jpg" alt="Woodcraft" class="category-image" />
+          </a>
+          <div class="product-info">
+              <h5><a href="https://craft.pawtea.com/category/woodcraft" style="text-decoration:none; color:black">Woodcraft</a></h5>
+          </div>
+      </div>
+      <div class="stat-display-slide col-2">
+        <a href="https://craft.pawtea.com/category/woodcraft" class="image-link">
+            <img src="image/category-2.jpg" alt="Woodcraft" class="category-image" />
+        </a>
+        <div class="product-info">
+            <h5><a href="https://craft.pawtea.com/category/woodcraft" style="text-decoration:none; color:black">Woodcraft</a></h5>
+        </div>
+    </div>
+    
+      
+  </div>
+</div>
+
+    
+<!-- Discover Trips Section -->
+<div class="discover my-5">
+  <h2 class="text-center mb-4">Discover Trips</h2>
+  <div class="discover-trips-slider">
+    <div class="discover-trips-slider-container">
+      <div class="discover-slider-track">
+        <!-- Trip 1 -->
+        <div class="discover-slide">
+          <div class="card discover-trip-card">
+            <!-- Badge Positioned Above the Image -->
+         
+            <!-- Wishlist Icon with Tooltip -->
+           
+            <div class="image-container">
+              <div class="badge-container">
+                <span class="badge">New</span>
+              </div>
+              <div class="wishlist-icon" title="Add to Wishlist">
+                <i class="fas fa-heart"></i>
+              </div>
+              <img src="image/category-1.jpg" class="card-img-top primary-image" alt="Trip Image 1" />
+              <img src="image/category-2.jpg" class="card-img-top secondary-image" alt="Trip Image 1 Hover" />
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Luxury Hotel in Dubai</h5>
+              <p class="card-text">Duration: 3 Days / 2 Nights</p>
+              <p class="card-price">Price: ₹25,000</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Trip 2 -->
+        <div class="discover-slide">
+          <div class="card discover-trip-card">
+            <!-- Badge Positioned Above the Image -->
+            <div class="badge-container">
+              <span class="badge">New</span>
+            </div>
+            <!-- Wishlist Icon with Tooltip -->
+            <div class="wishlist-icon" title="Add to Wishlist">
+              <i class="fas fa-heart"></i>
+            </div>
+            <div class="image-container">
+              <img src="image/category-1.jpg" class="card-img-top primary-image" alt="Trip Image 1" />
+              <img src="image/category-2.jpg" class="card-img-top secondary-image" alt="Trip Image 1 Hover" />
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Beachfront Resort in Goa</h5>
+              <p class="card-text">Duration: 5 Days / 4 Nights</p>
+              <p class="card-price">Price: ₹40,000</p>
+            </div>
+          </div>
+        </div>
+        <div class="discover-slide">
+          <div class="card discover-trip-card">
+            <!-- Badge Positioned Above the Image -->
+         
+            <!-- Wishlist Icon with Tooltip -->
+           
+            <div class="image-container">
+              <div class="badge-container">
+                <span class="badge">New</span>
+              </div>
+              <div class="wishlist-icon" title="Add to Wishlist">
+                <i class="fas fa-heart"></i>
+              </div>
+              <img src="image/category-1.jpg" class="card-img-top primary-image" alt="Trip Image 1" />
+              <img src="image/category-2.jpg" class="card-img-top secondary-image" alt="Trip Image 1 Hover" />
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Luxury Hotel in Dubai</h5>
+              <p class="card-text">Duration: 3 Days / 2 Nights</p>
+              <p class="card-price">Price: ₹25,000</p>
+            </div>
+          </div>
+        </div>
+        <div class="discover-slide">
+          <div class="card discover-trip-card">
+            <!-- Badge Positioned Above the Image -->
+         
+            <!-- Wishlist Icon with Tooltip -->
+           
+            <div class="image-container">
+              <div class="badge-container">
+                <span class="badge">New</span>
+              </div>
+              <div class="wishlist-icon" title="Add to Wishlist">
+                <i class="fas fa-heart"></i>
+              </div>
+              <img src="image/category-1.jpg" class="card-img-top primary-image" alt="Trip Image 1" />
+              <img src="image/category-2.jpg" class="card-img-top secondary-image" alt="Trip Image 1 Hover" />
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Luxury Hotel in Dubai</h5>
+              <p class="card-text">Duration: 3 Days / 2 Nights</p>
+              <p class="card-price">Price: ₹25,000</p>
+            </div>
+          </div>
+        </div>
+        <div class="discover-slide">
+          <div class="card discover-trip-card">
+            <!-- Badge Positioned Above the Image -->
+         
+            <!-- Wishlist Icon with Tooltip -->
+           
+            <div class="image-container">
+              <div class="badge-container">
+                <span class="badge">New</span>
+              </div>
+              <div class="wishlist-icon" title="Add to Wishlist">
+                <i class="fas fa-heart"></i>
+              </div>
+              <img src="image/category-1.jpg" class="card-img-top primary-image" alt="Trip Image 1" />
+              <img src="image/category-2.jpg" class="card-img-top secondary-image" alt="Trip Image 1 Hover" />
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Luxury Hotel in Dubai</h5>
+              <p class="card-text">Duration: 3 Days / 2 Nights</p>
+              <p class="card-price">Price: ₹25,000</p>
+            </div>
+          </div>
+        </div>
+        <div class="discover-slide">
+          <div class="card discover-trip-card">
+            <!-- Badge Positioned Above the Image -->
+         
+            <!-- Wishlist Icon with Tooltip -->
+           
+            <div class="image-container">
+              <div class="badge-container">
+                <span class="badge">New</span>
+              </div>
+              <div class="wishlist-icon" title="Add to Wishlist">
+                <i class="fas fa-heart"></i>
+              </div>
+              <img src="image/category-1.jpg" class="card-img-top primary-image" alt="Trip Image 1" />
+              <img src="image/category-2.jpg" class="card-img-top secondary-image" alt="Trip Image 1 Hover" />
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Luxury Hotel in Dubai</h5>
+              <p class="card-text">Duration: 3 Days / 2 Nights</p>
+              <p class="card-price">Price: ₹25,000</p>
+            </div>
+          </div>
+        </div>
+        <div class="discover-slide">
+          <div class="card discover-trip-card">
+            <!-- Badge Positioned Above the Image -->
+         
+            <!-- Wishlist Icon with Tooltip -->
+           
+            <div class="image-container">
+              <div class="badge-container">
+                <span class="badge">New</span>
+              </div>
+              <div class="wishlist-icon" title="Add to Wishlist">
+                <i class="fas fa-heart"></i>
+              </div>
+              <img src="image/category-1.jpg" class="card-img-top primary-image" alt="Trip Image 1" />
+              <img src="image/category-2.jpg" class="card-img-top secondary-image" alt="Trip Image 1 Hover" />
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Luxury Hotel in Dubai</h5>
+              <p class="card-text">Duration: 3 Days / 2 Nights</p>
+              <p class="card-price">Price: ₹25,000</p>
+            </div>
+          </div>
+        </div>
+        <div class="discover-slide">
+          <div class="card discover-trip-card">
+            <!-- Badge Positioned Above the Image -->
+         
+            <!-- Wishlist Icon with Tooltip -->
+           
+            <div class="image-container">
+              <div class="badge-container">
+                <span class="badge">New</span>
+              </div>
+              <div class="wishlist-icon" title="Add to Wishlist">
+                <i class="fas fa-heart"></i>
+              </div>
+              <img src="image/category-1.jpg" class="card-img-top primary-image" alt="Trip Image 1" />
+              <img src="image/category-2.jpg" class="card-img-top secondary-image" alt="Trip Image 1 Hover" />
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Luxury Hotel in Dubai</h5>
+              <p class="card-text">Duration: 3 Days / 2 Nights</p>
+              <p class="card-price">Price: ₹25,000</p>
+            </div>
+          </div>
+        </div>
+        <div class="discover-slide">
+          <div class="card discover-trip-card">
+            <!-- Badge Positioned Above the Image -->
+         
+            <!-- Wishlist Icon with Tooltip -->
+           
+            <div class="image-container">
+              <div class="badge-container">
+                <span class="badge">New</span>
+              </div>
+              <div class="wishlist-icon" title="Add to Wishlist">
+                <i class="fas fa-heart"></i>
+              </div>
+              <img src="image/category-1.jpg" class="card-img-top primary-image" alt="Trip Image 1" />
+              <img src="image/category-2.jpg" class="card-img-top secondary-image" alt="Trip Image 1 Hover" />
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Luxury Hotel in Dubai</h5>
+              <p class="card-text">Duration: 3 Days / 2 Nights</p>
+              <p class="card-price">Price: ₹25,000</p>
+            </div>
+          </div>
+        </div>
+        <!-- Additional slides go here... -->
+      </div>
+    </div>
+
+    <!-- Slider Controls (Previous and Next Buttons) -->
+    <div class="discover-slider-controls">
+      <button class="discover-prev-btn" id="prevDiscoverSlide">&lt;</button>
+      <button class="discover-next-btn" id="nextDiscoverSlide">&gt;</button>
+    </div>
+  </div>
+
+  <!-- View All Trips Button -->
+  <a href="collection.html">
+    <button type="button" class="btn-2">VIEW ALL TRIPS</button>
+  </a>
+</div>
+
+    <!--  about -->
+    <div class="container-fluid bg_shade">
+      <div class="handcrafted-section">
+        <div class="handcrafted-content">
+          <h2>
+            HANDCRAFTED & <br />
+            ETHICALLY SOURCED
+          </h2>
+          <div class="feature-box">
+            <div class="A-icon">
+              <i class="fas fa-shield-alt"></i>
+            </div>
+            <div class="text">
+              <h3>FAIR PRICING</h3>
+              <p>
+                Nullam quis ante. Pellentesque libero tortor, tincidunt et,
+                tincidunt et. In hac habitasse platea dictumst. Praesent nec
+                nisl a purus blandit viverra.
+              </p>
+            </div>
+          </div>
+          <div class="feature-box">
+            <div class="A-icon">
+              <i class="fas fa-shield-alt"></i>
+            </div>
+            <div class="text">
+              <h3>HIGH QUALITY</h3>
+              <p>
+                Nullam quis ante. Pellentesque libero tortor, tincidunt et,
+                tincidunt et. In hac habitasse platea dictumst. Praesent nec
+                nisl a purus blandit viverra.
+              </p>
+            </div>
+          </div>
+          <a href="collection.html" class="learn-more-btn">Learn More &rarr;</a>
+        </div>
+        <div class="handcrafted-image">
+          <img src="image/about-banner.jpg" alt="Handcrafted Image" />
+          <!-- Replace with actual image -->
+        </div>
+      </div>
+    </div>
+    
+<!-- New Discover Trips Section with Unique ID and Class -->
+<div class="new-discover my-5">
+  <h2 class="text-center mb-4">Explore New Destinations</h2>
+  <div class="new-discover-slider">
+    <div class="new-discover-slider-container">
+      <div class="new-discover-slider-track">
+        <!-- Trip 1 -->
+        <div class="new-discover-slide">
+          <div class="card new-discover-trip-card">
+            <!-- Badge Positioned Above the Image -->
+            <div class="badge-container">
+              <span class="badge">New</span>
+            </div>
+            <!-- Wishlist Icon with Tooltip -->
+            <div class="new-wishlist-icon" title="Add to Wishlist">
+              <i class="fas fa-heart"></i>
+            </div>
+            <div class="new-image-container">
+              <a href=""></a>
+              <img src="image/category-3.jpg" class="card-img-top primary-image" alt="Trip Image 1" />
+              <img src="image/category-4.jpg" class="card-img-top secondary-image" alt="Trip Image 1 Hover" />
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Mountain Trek in Nepal</h5>
+              <p class="card-text">Duration: 7 Days / 6 Nights</p>
+              <p class="card-price">Price: ₹50,000</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Trip 2 -->
+        <div class="new-discover-slide">
+          <div class="card new-discover-trip-card">
+            <!-- Badge Positioned Above the Image -->
+            <div class="badge-container">
+              <span class="badge">New</span>
+            </div>
+            <!-- Wishlist Icon with Tooltip -->
+            <div class="new-wishlist-icon" title="Add to Wishlist">
+              <i class="fas fa-heart"></i>
+            </div>
+            <div class="new-image-container">
+              <img src="image/category-3.jpg" class="card-img-top primary-image" alt="Trip Image 1" />
+              <img src="image/category-4.jpg" class="card-img-top secondary-image" alt="Trip Image 1 Hover" />
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Mountain Trek in Nepal</h5>
+              <p class="card-text">Duration: 7 Days / 6 Nights</p>
+              <p class="card-price">Price: ₹50,000</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Trip 3 -->
+        <div class="new-discover-slide">
+          <div class="card new-discover-trip-card">
+            <!-- Badge Positioned Above the Image -->
+            <div class="badge-container">
+              <span class="badge">New</span>
+            </div>
+            <!-- Wishlist Icon with Tooltip -->
+            <div class="new-wishlist-icon" title="Add to Wishlist">
+              <i class="fas fa-heart"></i>
+            </div>
+            <div class="new-image-container">
+              <img src="image/category-3.jpg" class="card-img-top primary-image" alt="Trip Image 1" />
+              <img src="image/category-4.jpg" class="card-img-top secondary-image" alt="Trip Image 1 Hover" />
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Mountain Trek in Nepal</h5>
+              <p class="card-text">Duration: 7 Days / 6 Nights</p>
+              <p class="card-price">Price: ₹50,000</p>
+            </div>
+          </div>
+        </div>
+        <div class="new-discover-slide">
+          <div class="card new-discover-trip-card">
+            <!-- Badge Positioned Above the Image -->
+            <div class="badge-container">
+              <span class="badge">New</span>
+            </div>
+            <!-- Wishlist Icon with Tooltip -->
+            <div class="new-wishlist-icon" title="Add to Wishlist">
+              <i class="fas fa-heart"></i>
+            </div>
+            <div class="new-image-container">
+              <img src="image/category-3.jpg" class="card-img-top primary-image" alt="Trip Image 1" />
+              <img src="image/category-4.jpg" class="card-img-top secondary-image" alt="Trip Image 1 Hover" />
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Mountain Trek in Nepal</h5>
+              <p class="card-text">Duration: 7 Days / 6 Nights</p>
+              <p class="card-price">Price: ₹50,000</p>
+            </div>
+          </div>
+        </div>
+        <div class="new-discover-slide">
+          <div class="card new-discover-trip-card">
+            <!-- Badge Positioned Above the Image -->
+            <div class="badge-container">
+              <span class="badge">New</span>
+            </div>
+            <!-- Wishlist Icon with Tooltip -->
+            <div class="new-wishlist-icon" title="Add to Wishlist">
+              <i class="fas fa-heart"></i>
+            </div>
+            <div class="new-image-container">
+              <img src="image/category-3.jpg" class="card-img-top primary-image" alt="Trip Image 1" />
+              <img src="image/category-4.jpg" class="card-img-top secondary-image" alt="Trip Image 1 Hover" />
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Mountain Trek in Nepal</h5>
+              <p class="card-text">Duration: 7 Days / 6 Nights</p>
+              <p class="card-price">Price: ₹50,000</p>
+            </div>
+          </div>
+        </div>
+        <div class="new-discover-slide">
+          <div class="card new-discover-trip-card">
+            <!-- Badge Positioned Above the Image -->
+            <div class="badge-container">
+              <span class="badge">New</span>
+            </div>
+            <!-- Wishlist Icon with Tooltip -->
+            <div class="new-wishlist-icon" title="Add to Wishlist">
+              <i class="fas fa-heart"></i>
+            </div>
+            <div class="new-image-container">
+              <img src="image/category-3.jpg" class="card-img-top primary-image" alt="Trip Image 1" />
+              <img src="image/category-4.jpg" class="card-img-top secondary-image" alt="Trip Image 1 Hover" />
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Mountain Trek in Nepal</h5>
+              <p class="card-text">Duration: 7 Days / 6 Nights</p>
+              <p class="card-price">Price: ₹50,000</p>
+            </div>
+          </div>
+        </div>
+        <div class="new-discover-slide">
+          <div class="card new-discover-trip-card">
+            <!-- Badge Positioned Above the Image -->
+            <div class="badge-container">
+              <span class="badge">New</span>
+            </div>
+            <!-- Wishlist Icon with Tooltip -->
+            <div class="new-wishlist-icon" title="Add to Wishlist">
+              <i class="fas fa-heart"></i>
+            </div>
+            <div class="new-image-container">
+              <img src="image/category-3.jpg" class="card-img-top primary-image" alt="Trip Image 1" />
+              <img src="image/category-4.jpg" class="card-img-top secondary-image" alt="Trip Image 1 Hover" />
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Mountain Trek in Nepal</h5>
+              <p class="card-text">Duration: 7 Days / 6 Nights</p>
+              <p class="card-price">Price: ₹50,000</p>
+            </div>
+          </div>
+        </div>
+        <div class="new-discover-slide">
+          <div class="card new-discover-trip-card">
+            <!-- Badge Positioned Above the Image -->
+            <div class="badge-container">
+              <span class="badge">New</span>
+            </div>
+            <!-- Wishlist Icon with Tooltip -->
+            <div class="new-wishlist-icon" title="Add to Wishlist">
+              <i class="fas fa-heart"></i>
+            </div>
+            <div class="new-image-container">
+              <img src="image/category-3.jpg" class="card-img-top primary-image" alt="Trip Image 1" />
+              <img src="image/category-4.jpg" class="card-img-top secondary-image" alt="Trip Image 1 Hover" />
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Mountain Trek in Nepal</h5>
+              <p class="card-text">Duration: 7 Days / 6 Nights</p>
+              <p class="card-price">Price: ₹50,000</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- More slides can be added here -->
+      </div>
+    </div>
+
+    <!-- Slider Controls (Previous and Next Buttons) -->
+    <div class="new-discover-slider-controls">
+      <button class="new-discover-prev-btn" id="prevNewDiscoverSlide">&lt;</button>
+      <button class="new-discover-next-btn" id="nextNewDiscoverSlide">&gt;</button>
+    </div>
+  </div>
+
+  <!-- View All Trips Button -->
+  <a href="new-collection.html">
+    <button type="button" class="new-btn-2">VIEW ALL TRIPS</button>
+  </a>
+</div>
+
+    <!--Lord Krishna Idol Statue  -->
+    <!-- <div class="custom-slider">
+      <h2>Lord Krishna Idol Statue</h2>
+      <div class="custom-slider-track">
+        <div class="custom-slide">
+          <a href="gallary.html">
+            <div class="image-container">
+              <img src="image/category-1.jpg" alt="Image 1" class="primary-image" />
+              <img src="image/category-2.jpg" alt="Image 1 Hover" class="secondary-image" />
+            </div>
+          </a>
+          <div class="custom-slide-content">
+            <h5>Product Title 1</h5>
+            <p>₹2,000.00</p>
+          </div>
+          <div class="wishlist-icon" title="Add to Wishlist">
+            <i class="fas fa-heart"></i>
+          </div>
+        </div>
+        
+        <div class="custom-slide">
+          <a href="gallary.html">
+            <div class="image-container">
+              <img src="image/category-1.jpg" alt="Image 1" class="primary-image" />
+              <img src="image/category-2.jpg" alt="Image 1 Hover" class="secondary-image" />
+            </div>
+          </a>
+          <div class="custom-slide-content">
+            <h5>Product Title 1</h5>
+            <p>₹2,000.00</p>
+          </div>
+         
+          <div class="wishlist-icon" title="Add to Wishlist">
+            <i class="fas fa-heart"></i> 
+          </div>
+        </div>
+        
+        <div class="custom-slide">
+          <a href="gallary.html">
+            <div class="image-container">
+              <img src="image/category-1.jpg" alt="Image 1" class="primary-image" />
+              <img src="image/category-2.jpg" alt="Image 1 Hover" class="secondary-image" />
+            </div>
+          </a>
+          <div class="custom-slide-content">
+            <h5>Product Title 1</h5>
+            <p>₹2,000.00</p>
+          </div>
+          <div class="wishlist-icon" title="Add to Wishlist">
+            <i class="fas fa-heart"></i> <
+          </div>
+        </div>
+        
+        <div class="custom-slide">
+          <a href="gallary.html">
+            <div class="image-container">
+              <img src="image/category-1.jpg" alt="Image 1" class="primary-image" />
+              <img src="image/category-2.jpg" alt="Image 1 Hover" class="secondary-image" />
+            </div>
+          </a>
+          <div class="custom-slide-content">
+            <h5>Product Title 1</h5>
+            <p>₹2,000.00</p>
+          </div>
+          <div class="wishlist-icon" title="Add to Wishlist">
+            <i class="fas fa-heart"></i>
+          </div>
+        </div>
+        <div class="custom-slide">
+          <a href="gallary.html">
+            <div class="image-container">
+              <img src="image/category-1.jpg" alt="Image 1" class="primary-image" />
+              <img src="image/category-2.jpg" alt="Image 1 Hover" class="secondary-image" />
+            </div>
+          </a>
+          <div class="custom-slide-content">
+            <h5>Product Title 1</h5>
+            <p>₹2,000.00</p>
+          </div>
+          <div class="wishlist-icon" title="Add to Wishlist">
+            <i class="fas fa-heart"></i> 
+          </div>
+        </div>
+        
+        <div class="custom-slide">
+          <a href="gallary.html">
+            <div class="image-container">
+              <img src="image/category-1.jpg" alt="Image 1" class="primary-image" />
+              <img src="image/category-2.jpg" alt="Image 1 Hover" class="secondary-image" />
+            </div>
+          </a>
+          <div class="custom-slide-content">
+            <h5>Product Title 1</h5>
+            <p>₹2,000.00</p>
+          </div>
+          <div class="wishlist-icon" title="Add to Wishlist">
+            <i class="fas fa-heart"></i> 
+          </div>
+        </div>
+        
+        <div class="custom-slide">
+          <a href="gallary.html">
+            <div class="image-container">
+              <img src="image/category-1.jpg" alt="Image 1" class="primary-image" />
+              <img src="image/category-2.jpg" alt="Image 1 Hover" class="secondary-image" />
+            </div>
+          </a>
+          <div class="custom-slide-content">
+            <h5>Product Title 1</h5>
+            <p>₹2,000.00</p>
+          </div>
+          <div class="wishlist-icon" title="Add to Wishlist">
+            <i class="fas fa-heart"></i>
+          </div>
+        </div>
+        
+        <div class="custom-slide">
+          <a href="gallary.html">
+            <div class="image-container">
+              <img src="image/category-1.jpg" alt="Image 1" class="primary-image" />
+              <img src="image/category-2.jpg" alt="Image 1 Hover" class="secondary-image" />
+            </div>
+          </a>
+          <div class="custom-slide-content">
+            <h5>Product Title 1</h5>
+            <p>₹2,000.00</p>
+          </div>
+          <div class="wishlist-icon" title="Add to Wishlist">
+            <i class="fas fa-heart"></i>
+          </div>
+        </div>
+        <div class="custom-slide">
+          <a href="gallary.html">
+            <div class="image-container">
+              <img src="image/category-1.jpg" alt="Image 1" class="primary-image" />
+              <img src="image/category-2.jpg" alt="Image 1 Hover" class="secondary-image" />
+            </div>
+          </a>
+          <div class="custom-slide-content">
+            <h5>Product Title 1</h5>
+            <p>₹2,000.00</p>
+          </div>
+          <div class="wishlist-icon" title="Add to Wishlist">
+            <i class="fas fa-heart"></i>
+          </div>
+        </div>
+        
+      </div>
+      
+      <button id="prev-slide" class="custom-nav prev">❮</button>
+      <button id="next-slide" class="custom-nav next">❯</button>
+  </div> -->
+  
+    
+
+    <section class="as-seen-section">
+      <div class="marquee">
+        <div class="marquee-content">
+          <span class="text-style-1">Exclusive Deals</span>
+          <span class="text-style-2">Limited Time Offer</span>
+          <span class="text-style-3">Free Shipping Worldwide</span>
+          <span class="text-style-4">Save Big on Your Next Purchase</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- UPDATES -->
+    <div class="icon-section bg_shade">
+      <div class="icon-box">
+        <i class="fas fa-shipping-fast"></i>
+        <p>FREE SHIPPING</p>
+      </div>
+      <div class="icon-box">
+        <i class="fas fa-money-bill-wave"></i>
+        <p>CASH ON DELIVERY</p>
+      </div>
+      <div class="icon-box">
+        <i class="fas fa-shield-alt"></i>
+        <p>SAFE PAYMENT</p>
+      </div>
+      <div class="icon-box">
+        <i class="fas fa-clock"></i>
+        <p>ONTIME DELIVERY</p>
+      </div>
+      <div class="icon-box">
+        <i class="fas fa-flag"></i>
+        <p>MADE IN INDIA</p>
+      </div>
+    </div>
+
+    <!-- mail -->
+    <div class="subscription-container">
+      <h2 class="subscription-title text-center mb-2 mt-5">
+        LATEST FROM MOJURI!
+      </h2>
+      <p class="subscription-description text-center mb-4">
+        Sign up to receive 10% off your next purchase. Plus, hear about new
+        arrivals and offers.
+      </p>
+      <div class="subscription-mail text-center ">
+        <input type="email" class="email-input" placeholder="Your email" />
+        <button class="btn-2">SUBSCRIBE</button>
+      </div>
+    </div>
+
+
+    <!-- Blog Feed -->
+    <div class="container mt-5">
+      <h2>Blog Feed</h2>
+      <div class="row Blog_card-feed">
+        <div class="col-md-4 blog-card">
+          <div class="Blog_card">
+            <img src="image/blog_feed-3.jpg" alt="Blog Post 1" class="card-img-top">
+            <div class="Blog_card-body">
+              <h5 class="Blog_card-title">Blog Title 1</h5>
+              <p class="Blog_card-text">Short description.</p>
+              <p class="text-muted">Date</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 blog-card">
+          <div class="Blog_card">
+            <img src="image/blog_feed-2.jpg" alt="Blog Post 2" class="card-img-top">
+            <div class="Blog_card-body">
+              <h5 class="Blog_card-title">Blog Title 2</h5>
+              <p class="Blog_card-text">Short description.</p>
+              <p class="text-muted">Date</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 blog-card">
+          <div class="Blog_card">
+            <img src="image/blog_feed-1.jpg" alt="Blog Post 3" class="card-img-top">
+            <div class="Blog_card-body">
+              <h5 class="Blog_card-title">Blog Title 3</h5>
+              <p class="Blog_card-text">Short description.</p>
+              <p class="Blog_card-muted">Date</p>
+            </div>
+          </div>
+        </div>
+        <!-- Add more blog cards as needed -->
+      </div>
+    </div>
+    
+
+
+
+    <!-- Footer -->
+    <footer class="footer bg_shade">
+      <div class="footer-background">
+        <div class="container">
+          <div class="row">
+            <!-- Follow Us Column -->
+            <div class="col-md-3 mb-4 mb-md-0">
+              <h5>Follow Us</h5>
+              <ul>
+                <li><a href="">New Arrivals</a></li>
+                <li><a href="">Kurta & Suit Sets</a></li>
+                <li><a href="">Lehenga Sets</a></li>
+                <li><a href="">Sarees</a></li>
+                <li><a href="">Bed Linens</a></li>
+                <li><a href="">Shoes</a></li>
+                <li><a href="">Sale</a></li>
+                <li><a href="">Relove</a></li>
+              </ul>
+            </div>
+
+            <!-- Contact Us Column -->
+            <div class="col-md-3 mb-4 mb-md-0">
+              <h5>Contact Us</h5>
+              <ul class="list-unstyled">
+                <li>
+                  <a href="mailto:contact@example.com"
+                    ><b>Crafts N Chisel LLC</b> - CNC Arts LLP</a
+                  >
+                </li>
+                <li>
+                  <a href="mailto:contact@example.com"
+                    ><b>Email</b>: contact@example.com</a
+                  >
+                </li>
+                <li>
+                  <a href="tel:+1234567890"
+                    ><b>Message us</b>: +1(408) 216-3825</a
+                  >
+                </li>
+                <li>
+                  <a href="https://wa.me/14082163825"
+                    ><b>Whatsapp link</b>: https://wa.me/14082163825</a
+                  >
+                </li>
+                <li>
+                  <a href="tel:+1234567890"><b>Phone</b>: +1 (234) 567-890</a>
+                </li>
+                <li>
+                  <a href="tel:+1234567890"
+                    ><b>Office Address</b>: 3901 Lick Mill Blvd, Santa Clara,
+                    CA, 95054</a
+                  >
+                </li>
+              </ul>
+            </div>
+
+            <!-- Company & Support Column -->
+            <div class="col-md-3 mb-4 mb-md-0">
+              <h5>Company & Support</h5>
+              <ul class="list-unstyled">
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Careers</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Terms of Service</a></li>
+              </ul>
+            </div>
+
+            <!-- Newsletter Column -->
+            <div class="col-md-3 mb-4 mb-md-0">
+              <h5>Follow Us</h5>
+              <div class="social-icons">
+                <a href="#" aria-label="Facebook"
+                  ><i class="bi bi-facebook"></i
+                ></a>
+                <a href="#" aria-label="Instagram"
+                  ><i class="bi bi-instagram"></i
+                ></a>
+                <a href="#" aria-label="Twitter"
+                  ><i class="bi bi-twitter"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="text-center mt-4">
+            <p>© 2024 Crafts N Chisel | Powered by Novel Solution Pvt</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Add background image after footer content -->
+      <div class="footer-image">
+        <img
+          src="image/footer-banner.jpg"
+          style="height: 530px; width: 100%"
+          alt="Footer Background"
+        />
+      </div>
+    </footer>
+
+
+
+    <!-- mobile footer -->
+    <!-- Footer -->
+    <footer class="mobile-footer d-lg-none">
+      <div class="container-fluid">
+        <ul class="navbar-nav mb-lg-0 d-flex flex-row justify-content-around">
+          <li class="nav-item">
+            <a class="nav-icon" href="index.html" id="homeFooterIcon">
+              <i class="bi bi-house"></i>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-icon" href="login.html" id="loginFooterIcon">
+              <i class="bi bi-person"></i>
+            </a>
+          </li>
+          <li class="nav-item">
+            <!-- Search icon -->
+            <a class="nav-icon search-trigger" href="#" id="openSearch">
+              <i class="bi bi-search"></i>
+            </a>
+          </li>
+          <div class="footer-cart-icon">
+            <a class="nav-icon" href="#" id="footerCartIcon">
+              <i class="bi bi-bag"></i>
+            </a>
+          </div>
+        </ul>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+    <script>
+
+// class CustomSlider {
+//     constructor(sliderSelector, prevButtonSelector, nextButtonSelector) {
+//         this.sliderTrack = document.querySelector(sliderSelector);
+//         this.slides = this.sliderTrack.querySelectorAll(".custom-slide");
+//         this.currentIndex = 0;
+//         this.slidesPerView = 4;
+//         this.totalSlides = Math.min(this.slides.length, 10); 
+
+//         document.querySelector(prevButtonSelector).onclick = () => this.prevSlide();
+//         document.querySelector(nextButtonSelector).onclick = () => this.nextSlide();
+
+//         this.updateSlider();
+//     }
+
+//     updateSlider() {
+//         this.sliderTrack.style.transform = `translateX(-${this.currentIndex * (this.slides[0].clientWidth + 10)}px)`;
+//     }
+
+//     nextSlide() {
+//         if (this.currentIndex < this.totalSlides - this.slidesPerView) {
+//             this.currentIndex++;
+//             this.updateSlider();
+//         }
+//     }
+
+//     prevSlide() {
+//         if (this.currentIndex > 0) {
+//             this.currentIndex--;
+//             this.updateSlider();
+//         }
+//     }
+// }
+
+// document.addEventListener("DOMContentLoaded", () => {
+//     new CustomSlider(".custom-slider-track", "#prev-slide", "#next-slide");
+// });
+
+
+// ##### 
+const cartIcon = document.getElementById("cartIcon");
+        const sidebar = document.getElementById("sidebar");
+        const closeSidebar = document.getElementById("closeSidebar");
+        const searchIcon = document.getElementById("openSearch");
+        const searchModal = document.getElementById("searchModal");
+        const closeModal = document.getElementById("closeModal");
+  
+        cartIcon.addEventListener("click", function () {
+          sidebar.classList.add("show");
+        });
+  
+        closeSidebar.addEventListener("click", function () {
+          sidebar.classList.remove("show");
+        });
+  
+        searchIcon.addEventListener("click", function () {
+          searchModal.classList.add("show");
+        });
+  
+        closeModal.addEventListener("click", function () {
+          searchModal.classList.remove("show");
+        });
+    </script>
+  </body>
+</html>
